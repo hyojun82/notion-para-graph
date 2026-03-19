@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PARA 노트 그래프</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0d0d0d; color: #ccc; font-family: 'Segoe UI', sans-serif; overflow: hidden; width: 100vw; height: 100vh; }
+    svg { width: 100%; height: 100%; cursor: grab; }
+    svg:active { cursor: grabbing; }
+
+    .link { stroke-opacity: 0.5; fill: none; }
+    .link.area-project { stroke: #7ecb20; stroke-width: 2; stroke-dasharray: 5,3; }
+    .link.area-note    { stroke: #555; stroke-width: 1.2; }
+    .link.project-note { stroke: #ff8c42; stroke-width: 1.2; stroke-opacity: 0.4; }
+    .link.highlighted  { stroke-opacity: 1 !important; stroke-width: 2.5 !important; }
+
+    .node { cursor: pointer; }
+    .node circle, .node rect { transition: filter 0.2s; }
+    .node:hover circle, .node:hover rect { filter: brightness(1.5) drop-shadow(0 0 8px currentColor); }
+    .node-label { fill: #ccc; font-size: 10.5px; text-anchor: middle; pointer-events: none; user-select: none; }
+    .node-label.big { font-size: 12px; font-weight: 600; fill: #eee; }
+
+    /* Tooltip */
+    #tooltip {
+      position: absolute; background: rgba(18,18,28,0.97);
+      border: 1px solid #333; border-radius: 8px; padding: 10px 14px;
+      font-size: 12px; color: #ddd; pointer-events: none; opacity: 0;
+      transition: opacity 0.15s; max-width: 220px; z-index: 20; line-height: 1.6;
+    }
+    #tooltip strong { color: #fff; font-size: 13px; }
+    #tooltip .badge { display: inline-block; padding: 1px 7px; border-radius: 10px; font-size: 10px; margin-top: 4px; }
+
+    /* Controls */
+    #controls { position: absolute; bottom: 16px; right: 16px; display: flex; flex-direction: column; gap: 6px; z-index: 20; }
+    .ctrl-btn { width: 32px; height: 32px; background: rgba(35,35,48,0.95); border: 1px solid #3a3a50; border-radius: 6px; color: #bbb; font-size: 16px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .ctrl-btn:hover { background: rgba(70,70,100,0.95); color: #fff; }
+
+    /* Legend */
+    #legend { position: absolute; top: 14px; left: 14px; background: rgba(15,15,25,0.92); border: 1px solid #2a2a3a; border-radius: 10px; padding: 12px 16px; font-size: 11px; color: #999; z-index: 20; min-width: 140px; }
+    #legend h3 { font-size: 12px; color: #eee; margin-bottom: 10px; font-weight: 600; letter-spacing: 0.5px; }
+    .leg { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; cursor: pointer; transition: opacity 0.2s; }
+    .leg.dimmed { opacity: 0.35; }
+    .leg-dot { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
+    .leg-sq  { width: 11px; height: 11px; border-radius: 2px; flex-shrink: 0; }
+    .leg-dia { width: 11px; height: 11px; transform: rotate(45deg); flex-shrink: 0; }
+
+    /* Search */
+    #search-box { position: absolute; top: 14px; right: 14px; z-index: 20; }
+    #search-input { background: rgba(18,18,28,0.95); border: 1px solid #333; border-radius: 8px; color: #eee; padding: 7px 12px; font-size: 12px; outline: none; width: 175px; }
+    #search-input:focus { border-color: #4a9eff; }
+    #search-input::placeholder { color: #444; }
+
+    /* Stats */
+    #stats { position: absolute; bottom: 14px; left: 14px; font-size: 10px; color: #444; z-index: 20; }
+
+    /* Click hint */
+    #hint { position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%); font-size: 10px; color: #333; z-index: 20; white-space: nowrap; }
+  </style>
+</head>
+<body>
+<svg id="svg"></svg>
+<div id="tooltip"></div>
+
+<div id="legend">
+  <h3>📊 PARA 그래프</h3>
+  <div class="leg" data-type="area">
+    <div class="leg-dot" style="background:#4a9eff;box-shadow:0 0 5px #4a9eff44"></div><span>영역 (Area)</span>
+  </div>
+  <div class="leg" data-type="resource">
+    <div class="leg-dot" style="background:#b06fff;box-shadow:0 0 5px #b06fff44"></div><span>자원 (Resource)</span>
+  </div>
+  <div class="leg" data-type="project">
+    <div class="leg-sq" style="background:#ff8c42;box-shadow:0 0 5px #ff8c4244"></div><span>프로젝트</span>
+  </div>
+  <div class="leg" data-type="note">
+    <div class="leg-dot" style="background:#4ecdc4;box-shadow:0 0 4px #4ecdc444"></div><span>노트</span>
+  </div>
+  <div style="border-top:1px solid #222;margin:8px 0"></div>
+  <div style="font-size:10px;color:#555">크기 = 연결 노트 수</div>
+</div>
+
+<div id="search-box">
+  <input id="search-input" type="text" placeholder="🔍 노드 검색..." />
+</div>
+
+<div id="controls">
+  <div class="ctrl-btn" id="zoom-in">+</div>
+  <div class="ctrl-btn" id="zoom-out">−</div>
+  <div class="ctrl-btn" id="zoom-reset">⊙</div>
+</div>
+
+<div id="stats"></div>
+<div id="hint">클릭하면 노션 페이지로 이동</div>
+
+<script>
+// ═══════════════════════════════════════════════
+//  실제 노션 PARA 데이터
+// ═══════════════════════════════════════════════
+const graphData = {
+  nodes: [
+    // ── 영역 (Area) ──────────────────────────────
+    { id:"Device",            type:"area",     noteCount:28, desc:"전자기기 관련 영역",         url:"https://www.notion.so/Device-1785249e732580e29b20c6cb2da16b09" },
+    { id:"생산관리",           type:"area",     noteCount:4,  desc:"생산관리 영역",              url:"https://www.notion.so/19d5249e732580e1ae04c788392c46e6" },
+    { id:"기구팀",             type:"area",     noteCount:3,  desc:"기구팀 영역",                url:"https://www.notion.so/19d5249e732580789fbdfa9eabeeab7f" },
+    { id:"RevoSketch",        type:"area",     noteCount:6,  desc:"RevoSketch 관련 영역",        url:"https://www.notion.so/RevoSketch-1655249e7325812fba37c9e7ff3ceeb2" },
+    { id:"자금",               type:"area",     noteCount:0,  desc:"자금 영역",                  url:"https://www.notion.so/31f5249e73258091b68df9eeb7b0f743" },
+
+    // ── 자원 (Resource) ───────────────────────────
+    { id:"기구설계",           type:"resource", noteCount:60, desc:"기구설계 자원 (노트 60개)",  url:"https://www.notion.so/1655249e732581a992bdcdfba8be344c" },
+    { id:"Study",             type:"resource", noteCount:25, desc:"학습·공부 자원",              url:"https://www.notion.so/Study-1655249e732581b7b340f92edbb4ba5e" },
+    { id:"연구노트",           type:"resource", noteCount:13, desc:"연구 기록 자원",              url:"https://www.notion.so/1655249e732581df81dddae1a1d55dd9" },
+    { id:"업무프로세스/SOP",   type:"resource", noteCount:11, desc:"SOP·업무프로세스 자원",      url:"https://www.notion.so/SOP-1785249e73258085ae51ef17eeb05cd3" },
+    { id:"디자인",             type:"resource", noteCount:5,  desc:"디자인 자원",                url:"https://www.notion.so/1785249e7325804ba344cadbd8282e82" },
+    { id:"ME",                type:"resource", noteCount:4,  desc:"ME 개인 자원",               url:"https://www.notion.so/ME-1785249e732580349f79cfd0b45e2cb8" },
+    { id:"생산",               type:"resource", noteCount:2,  desc:"생산 자원",                  url:"https://www.notion.so/1785249e732580f98de4e8813cb98341" },
+    { id:"컴퓨터",             type:"resource", noteCount:2,  desc:"컴퓨터·IT 자원",            url:"https://www.notion.so/31e5249e732580bc9816d4aea3aaf7e1" },
+    { id:"인문학",             type:"resource", noteCount:2,  desc:"인문학 자원",                url:"https://www.notion.so/31f5249e732580829c8bdc78718f438b" },
+    { id:"블로그",             type:"resource", noteCount:1,  desc:"블로그 자원",                url:"https://www.notion.so/3245249e732580c2a76bcb234c1a6eec" },
+
+    // ── 프로젝트 ──────────────────────────────────
+    { id:"easyQuark",         type:"project",  status:"진행 중", noteCount:25, desc:"easyQuark 프로젝트 (진행 중)", url:"https://www.notion.so/easyQuark-1915249e732580a0a9fef966807cec48" },
+    { id:"digiQuark",         type:"project",  status:"진행 중", noteCount:21, desc:"digiQuark 프로젝트 (진행 중)", url:"https://www.notion.so/digiQuark-1655249e732581db91b3ffe3ec469df3" },
+    { id:"AI LLM",            type:"project",  status:"진행 중", noteCount:11, desc:"AI LLM 학습 프로젝트 (진행 중)", url:"https://www.notion.so/AI-LLM-2f85249e7325802bb5cbd31e7e5093ba" },
+    { id:"isoQuark",          type:"project",  status:"진행 중", noteCount:4,  desc:"isoQuark 프로젝트 (진행 중)", url:"https://www.notion.so/isoQuark-1f55249e732580cab3efc50d99645142" },
+    { id:"에멀전 오일 자동 충전", type:"project", status:"진행 중", noteCount:3, desc:"에멀전 오일 자동 충전 프로젝트 (진행 중)", url:"https://www.notion.so/2f85249e732580f8857be22f2369732f" },
+    { id:"인사",               type:"project",  status:"시작 안 함", noteCount:2, desc:"인사 프로젝트 (시작 안 함)", url:"https://www.notion.so/31d5249e73258067a9c6ccbc5d275b13" },
+    { id:"SpinMotorAssy",     type:"project",  status:"완료",  noteCount:2,  desc:"SpinMotorAssy 프로젝트 (완료)", url:"https://www.notion.so/SpinMotorAssy-1655249e732581de8acad28cf4cbb9e4" },
+
+    // ── 노트 (샘플) ───────────────────────────────
+    { id:"공부해야 할 것들",    type:"note", url:"https://www.notion.so/3235249e732580f9a628dc59f3d21a09" },
+    { id:"폴더 정리 방법",      type:"note", url:"https://www.notion.so/2ec5249e7325805790a8d82faa3c739b" },
+    { id:"Claude Projects\n가이드", type:"note", url:"https://www.notion.so/31e5249e732580fbb93cd2415824350e" },
+    { id:"라즈베리파이",        type:"note", url:"https://www.notion.so/2535249e732580b7a063d35a28ec614c" },
+    { id:"바이메탈",            type:"note", url:"https://www.notion.so/2f85249e732580b78e6be03542567de2" },
+    { id:"보안 볼트",           type:"note", url:"https://www.notion.so/22c5249e732580928abcfe4349a43486" },
+    { id:"RPM 지그",            type:"note", url:"https://www.notion.so/25d5249e73258002aed1d4626e72b5e8" },
+    { id:"digiQuark 폰트",      type:"note", url:"https://www.notion.so/31a5249e7325809fb73fdf785d4a8d67" },
+    { id:"ESD 관련",            type:"note", url:"https://www.notion.so/28b5249e73258015a411dbce4e3475f8" },
+    { id:"QR 라벨",             type:"note", url:"https://www.notion.so/30c5249e732580dc8542d1e69eaac03d" },
+    { id:"Quick Guidance",      type:"note", url:"https://www.notion.so/2f35249e732580e896c8e8da3dd27a45" },
+    { id:"Nas 423+",            type:"note", url:"https://www.notion.so/2515249e732580bb9ad1ca72db811c08" },
+    { id:"isoQuark mini",       type:"note", url:"https://www.notion.so/2955249e732580f58d80cc6b578ae326" },
+    { id:"Power Adapter",       type:"note", url:"https://www.notion.so/30c5249e7325804fbe91c6b8342f4715" },
+    { id:"기어제도법",           type:"note", url:"https://www.notion.so/1785249e732580eeafb5d7d94db1af2f" },
+    { id:"OJT 교육자료",         type:"note", url:"https://www.notion.so/1785249e732580dfa18bd300244a8c49" },
+    { id:"연차 계획서",          type:"note", url:"https://www.notion.so/1785249e732580708208eca4a21bf570" },
+    { id:"digiQuark 업그레이드", type:"note", url:"https://www.notion.so/24f5249e7325800bab51f161ee33d257" },
+    { id:"rh",                  type:"note", url:"https://www.notion.so/3235249e73258082ac01e48fc002e497" },
+    { id:"거버 파일",            type:"note", url:"https://www.notion.so/2e65249e7325805ab0f6dc83f1965e8e" },
+    { id:"easyQuark 방열",       type:"note", url:"https://www.notion.so/2465249e732580c1abc4e6ea361efc98" },
+  ],
+  links: [
+    // 영역 ↔ 프로젝트
+    { source:"Study",  target:"AI LLM",               type:"area-project" },
+    { source:"기구팀", target:"에멀전 오일 자동 충전",   type:"area-project" },
+
+    // 영역/자원 → 노트
+    { source:"Study",           target:"공부해야 할 것들",    type:"area-note" },
+    { source:"Study",           target:"Claude Projects\n가이드", type:"area-note" },
+    { source:"Study",           target:"거버 파일",           type:"area-note" },
+    { source:"업무프로세스/SOP", target:"폴더 정리 방법",      type:"area-note" },
+    { source:"업무프로세스/SOP", target:"OJT 교육자료",        type:"area-note" },
+    { source:"컴퓨터",          target:"라즈베리파이",         type:"area-note" },
+    { source:"컴퓨터",          target:"Nas 423+",            type:"area-note" },
+    { source:"연구노트",        target:"바이메탈",             type:"area-note" },
+    { source:"연구노트",        target:"보안 볼트",            type:"area-note" },
+    { source:"연구노트",        target:"RPM 지그",             type:"area-note" },
+    { source:"기구설계",        target:"기어제도법",           type:"area-note" },
+    { source:"Device",          target:"ESD 관련",            type:"area-note" },
+    { source:"Device",          target:"QR 라벨",             type:"area-note" },
+    { source:"Device",          target:"Quick Guidance",      type:"area-note" },
+    { source:"Device",          target:"isoQuark mini",       type:"area-note" },
+    { source:"Device",          target:"Power Adapter",       type:"area-note" },
+    { source:"디자인",          target:"Quick Guidance",       type:"area-note" },
+    { source:"RevoSketch",      target:"digiQuark 폰트",       type:"area-note" },
+    { source:"RevoSketch",      target:"연차 계획서",          type:"area-note" },
+    { source:"인문학",          target:"rh",                  type:"area-note" },
+
+    // 프로젝트 → 노트
+    { source:"AI LLM",  target:"Claude Projects\n가이드", type:"project-note" },
+    { source:"AI LLM",  target:"rh",                     type:"project-note" },
+    { source:"digiQuark", target:"바이메탈",              type:"project-note" },
+    { source:"digiQuark", target:"ESD 관련",              type:"project-note" },
+    { source:"digiQuark", target:"digiQuark 업그레이드",  type:"project-note" },
+    { source:"easyQuark", target:"QR 라벨",               type:"project-note" },
+    { source:"easyQuark", target:"Power Adapter",         type:"project-note" },
+    { source:"easyQuark", target:"Quick Guidance",        type:"project-note" },
+    { source:"easyQuark", target:"easyQuark 방열",         type:"project-note" },
+    { source:"isoQuark",  target:"isoQuark mini",         type:"project-note" },
+  ]
+};
+
+// ═══════════════════════════════════════════════
+//  스타일 헬퍼
+// ═══════════════════════════════════════════════
+function nodeColor(d) {
+  if (d.type === "area")     return "#4a9eff";
+  if (d.type === "resource") return "#b06fff";
+  if (d.type === "project") {
+    if (d.status === "진행 중")    return "#ff8c42";
+    if (d.status === "완료")       return "#888";
+    return "#ffd166";
+  }
+  return "#4ecdc4";
+}
+function nodeRadius(d) {
+  if (d.type === "note") return 7;
+  const base = d.type === "project" ? 12 : 10;
+  return base + Math.sqrt(d.noteCount || 0) * 1.4;
+}
+function isHub(d) { return d.type !== "note"; }
+
+// ═══════════════════════════════════════════════
+//  SVG 초기화
+// ═══════════════════════════════════════════════
+const container = document.body;
+let W = container.clientWidth, H = container.clientHeight;
+const svg = d3.select("#svg");
+
+const zoom = d3.zoom().scaleExtent([0.15, 6]).on("zoom", e => g.attr("transform", e.transform));
+svg.call(zoom);
+
+const g    = svg.append("g");
+const gLink = g.append("g");
+const gNode = g.append("g");
+
+// ═══════════════════════════════════════════════
+//  Simulation
+// ═══════════════════════════════════════════════
+const sim = d3.forceSimulation(graphData.nodes)
+  .force("link", d3.forceLink(graphData.links).id(d => d.id).distance(d => {
+    if (d.type === "area-project") return 120;
+    if (d.type === "area-note")    return 90;
+    return 80;
+  }).strength(0.4))
+  .force("charge", d3.forceManyBody().strength(d => isHub(d) ? -350 : -80))
+  .force("center", d3.forceCenter(W/2, H/2))
+  .force("collision", d3.forceCollide(d => nodeRadius(d) + 12));
+
+// ─── Links ───
+const link = gLink.selectAll("line")
+  .data(graphData.links).enter().append("line")
+  .attr("class", d => `link ${d.type}`);
+
+// ─── Nodes ───
+const node = gNode.selectAll(".node")
+  .data(graphData.nodes).enter().append("g")
+  .attr("class", "node")
+  .call(d3.drag()
+    .on("start", (e,d) => { if (!e.active) sim.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
+    .on("drag",  (e,d) => { d.fx=e.x; d.fy=e.y; })
+    .on("end",   (e,d) => { if (!e.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }))
+  .on("click", (e,d) => { if (d.url) window.open(d.url, "_blank"); });
+
+// 모양: 프로젝트=사각형, 나머지=원
+node.each(function(d) {
+  const el = d3.select(this);
+  const r  = nodeRadius(d);
+  const c  = nodeColor(d);
+  if (d.type === "project") {
+    const s = r * 1.7;
+    el.append("rect")
+      .attr("x", -s/2).attr("y", -s/2).attr("width", s).attr("height", s).attr("rx", 4)
+      .style("fill", c).style("stroke", d3.color(c).darker(0.8)).style("stroke-width", 1.5)
+      .style("filter", `drop-shadow(0 0 5px ${c}66)`);
+  } else {
+    el.append("circle").attr("r", r)
+      .style("fill", c).style("stroke", d3.color(c).darker(0.8)).style("stroke-width", 1.5)
+      .style("filter", `drop-shadow(0 0 ${isHub(d)?6:3}px ${c}55)`);
+  }
+});
+
+// 라벨
+node.append("text")
+  .attr("class", d => isHub(d) ? "node-label big" : "node-label")
+  .attr("dy", d => nodeRadius(d) + (isHub(d) ? 15 : 13))
+  .each(function(d) {
+    const lines = d.id.split("\n");
+    const el = d3.select(this);
+    if (lines.length > 1) {
+      lines.forEach((line, i) => {
+        el.append("tspan").attr("x", 0).attr("dy", i === 0 ? 0 : "1.1em").text(line);
+      });
+    } else {
+      el.text(d.id);
+    }
+  });
+
+// ─── Hover ───
+const tooltip = document.getElementById("tooltip");
+const badgeColor = { area:"#4a9eff", resource:"#b06fff", project:"#ff8c42", note:"#4ecdc4" };
+const typeName   = { area:"영역", resource:"자원", project:"프로젝트", note:"노트" };
+
+node.on("mouseover", function(ev, d) {
+    link.classed("highlighted", l => l.source.id===d.id || l.target.id===d.id);
+    let html = `<strong>${d.id.replace("\n"," ")}</strong><br>`;
+    html += `<span class="badge" style="background:${badgeColor[d.type]}22;color:${badgeColor[d.type]};border:1px solid ${badgeColor[d.type]}55">${typeName[d.type]}</span>`;
+    if (d.status) html += ` <span class="badge" style="background:#ffffff11;color:#aaa;border:1px solid #333">${d.status}</span>`;
+    if (d.noteCount) html += `<br><span style="color:#666;font-size:11px">연결 노트 ${d.noteCount}개</span>`;
+    if (d.desc) html += `<br><span style="color:#555;font-size:10px">${d.desc}</span>`;
+    html += `<br><span style="color:#333;font-size:10px">클릭 → 노션 열기</span>`;
+    tooltip.innerHTML = html;
+    tooltip.style.opacity = "1";
+  })
+  .on("mousemove", ev => {
+    tooltip.style.left = (ev.clientX+14)+"px";
+    tooltip.style.top  = (ev.clientY-10)+"px";
+  })
+  .on("mouseout", () => {
+    link.classed("highlighted", false);
+    tooltip.style.opacity = "0";
+  });
+
+// ─── Tick ───
+sim.on("tick", () => {
+  link.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y)
+      .attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+  node.attr("transform", d => `translate(${d.x},${d.y})`);
+});
+
+// ═══════════════════════════════════════════════
+//  Controls
+// ═══════════════════════════════════════════════
+document.getElementById("zoom-in").onclick  = () => svg.transition().call(zoom.scaleBy, 1.3);
+document.getElementById("zoom-out").onclick = () => svg.transition().call(zoom.scaleBy, 0.77);
+document.getElementById("zoom-reset").onclick = () =>
+  svg.transition().call(zoom.transform, d3.zoomIdentity.translate(W/2, H/2).scale(1));
+
+// ─── Search ───
+document.getElementById("search-input").addEventListener("input", function() {
+  const q = this.value.trim().toLowerCase();
+  if (!q) { node.style("opacity",1); link.style("opacity", l => l.type==="area-project" ? 0.7 : 0.5); return; }
+  node.style("opacity", d => d.id.toLowerCase().includes(q) ? 1 : 0.08);
+  link.style("opacity", l =>
+    (l.source.id.toLowerCase().includes(q)||l.target.id.toLowerCase().includes(q)) ? 0.9 : 0.03);
+  const match = graphData.nodes.find(d => d.id.toLowerCase().includes(q));
+  if (match?.x) svg.transition().duration(500).call(zoom.transform,
+    d3.zoomIdentity.translate(W/2-match.x, H/2-match.y).scale(1.6));
+});
+
+// ─── Legend toggles ───
+const hidden = new Set();
+document.querySelectorAll(".leg[data-type]").forEach(el => {
+  el.addEventListener("click", () => {
+    const t = el.dataset.type;
+    if (hidden.has(t)) { hidden.delete(t); el.classList.remove("dimmed"); }
+    else { hidden.add(t); el.classList.add("dimmed"); }
+    node.style("opacity", d => hidden.has(d.type) ? 0.05 : 1);
+    link.style("opacity", l => {
+      if (hidden.has(l.source.type||"") || hidden.has(l.target.type||"")) return 0.03;
+      return l.type==="area-project" ? 0.7 : 0.5;
+    });
+  });
+});
+
+// ─── Stats ───
+const areas = graphData.nodes.filter(d=>d.type==="area").length;
+const resources = graphData.nodes.filter(d=>d.type==="resource").length;
+const projects = graphData.nodes.filter(d=>d.type==="project").length;
+const notes = graphData.nodes.filter(d=>d.type==="note").length;
+document.getElementById("stats").textContent =
+  `영역 ${areas} · 자원 ${resources} · 프로젝트 ${projects} · 노트 ${notes}개 표시 (샘플)`;
+
+window.addEventListener("resize", () => {
+  W = container.clientWidth; H = container.clientHeight;
+  sim.force("center", d3.forceCenter(W/2, H/2)).restart();
+});
+</script>
+</body>
+</html>
