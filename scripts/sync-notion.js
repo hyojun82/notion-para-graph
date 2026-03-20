@@ -19,8 +19,8 @@ const HEADERS = {
 
 // 데이터베이스 ID
 const DB = {
-  areaResource: '1655249e-7325-8157-8856-000b00565f0a',
-  project:      '1655249e-7325-8181-90e0-000b2e67c955',
+  areaResource: '1655249e-7325-814b-a5b1-dab828ecc832',
+  project:      '1655249e-7325-8155-8bb4-edfb3c18c9ea',
   note:         '1655249e-7325-8168-acf1-ca00ab11696b',
 };
 
