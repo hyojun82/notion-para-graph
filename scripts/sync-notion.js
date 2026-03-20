@@ -78,10 +78,10 @@ async function main() {
   // ── 영역·자원 ──────────────────────────────
   for (const page of arPages) {
     const status = getStatus(page);
-    if (status === '아카이브') continue; // 아카이브 제외
+    const archived = status === '아카이브';
 
     const name = getTitle(page);
-    const type = status === '영역' ? 'area' : 'resource';
+    const type = archived ? 'archived' : (status === '영역' ? 'area' : 'resource');
     const noteIds = getRelIds(page, '노트');
 
     idToName.set(page.id, name);
@@ -115,11 +115,10 @@ async function main() {
     });
   }
 
-  // ── 노트 (관계가 있는 것만 포함) ───────────
+  // ── 노트 (전체 포함) ───────────────────────
   for (const page of ntPages) {
     const areaIds    = getRelIds(page, '영역 · 자원');
     const projectIds = getRelIds(page, '프로젝트');
-    if (areaIds.length === 0 && projectIds.length === 0) continue; // 고아 노트 제외
 
     const name = getTitle(page);
     idToName.set(page.id, name);
@@ -146,10 +145,11 @@ async function main() {
   }
 
   for (const node of nodes) {
-    if (node.type === 'area' || node.type === 'resource') {
+    if (node.type === 'area' || node.type === 'resource' || node.type === 'archived') {
       for (const nid of (node._noteIds || [])) {
         const noteName = idToName.get(nid);
-        if (noteName) addLink(node.id, noteName, 'area-note');
+        const linkType = node.type === 'archived' ? 'archived-note' : 'area-note';
+        if (noteName) addLink(node.id, noteName, linkType);
       }
     }
     if (node.type === 'project') {

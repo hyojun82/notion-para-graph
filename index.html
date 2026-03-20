@@ -12,9 +12,10 @@
     svg:active { cursor: grabbing; }
 
     .link { stroke-opacity: 0.5; fill: none; }
-    .link.area-project { stroke: #7ecb20; stroke-width: 2; stroke-dasharray: 5,3; }
-    .link.area-note    { stroke: #555; stroke-width: 1.2; }
-    .link.project-note { stroke: #ff8c42; stroke-width: 1.2; stroke-opacity: 0.4; }
+    .link.area-project  { stroke: #7ecb20; stroke-width: 2; stroke-dasharray: 5,3; }
+    .link.area-note     { stroke: #555; stroke-width: 1.2; }
+    .link.project-note  { stroke: #ff8c42; stroke-width: 1.2; stroke-opacity: 0.4; }
+    .link.archived-note { stroke: #3a3a3a; stroke-width: 1; stroke-dasharray: 3,3; }
     .link.highlighted  { stroke-opacity: 1 !important; stroke-width: 2.5 !important; }
 
     .node { cursor: pointer; }
@@ -95,6 +96,12 @@
   <div class="leg" data-type="note">
     <div class="leg-dot" style="background:#4ecdc4;box-shadow:0 0 4px #4ecdc444"></div><span>노트</span>
   </div>
+  <div class="leg" data-type="archived">
+    <div class="leg-dot" style="background:#555;box-shadow:none"></div><span>아카이브</span>
+  </div>
+  <div class="leg" data-type="orphan">
+    <div class="leg-dot" style="background:#4ecdc4;opacity:0.35;box-shadow:none"></div><span>고아 노트</span>
+  </div>
   <div style="border-top:1px solid #222;margin:8px 0"></div>
   <div style="font-size:10px;color:#555">크기 = 연결 노트 수</div>
   <div id="live-bar">
@@ -127,6 +134,7 @@ const REFRESH_INTERVAL = 30000; // 30초마다 갱신
 function nodeColor(d) {
   if (d.type === "area")     return "#4a9eff";
   if (d.type === "resource") return "#b06fff";
+  if (d.type === "archived") return "#555";
   if (d.type === "project") {
     if (d.status === "진행 중") return "#ff8c42";
     if (d.status === "완료")    return "#888";
@@ -171,10 +179,11 @@ const sim = d3.forceSimulation()
 // tick에서 참조할 현재 선택 변수
 let linkSel = gLink.selectAll("line");
 let nodeSel = gNode.selectAll(".node");
+let orphanNoteIds = new Set();
 
 const tooltip   = document.getElementById("tooltip");
-const badgeColor = { area:"#4a9eff", resource:"#b06fff", project:"#ff8c42", note:"#4ecdc4" };
-const typeName   = { area:"영역", resource:"자원", project:"프로젝트", note:"노트" };
+const badgeColor = { area:"#4a9eff", resource:"#b06fff", project:"#ff8c42", note:"#4ecdc4", archived:"#555" };
+const typeName   = { area:"영역", resource:"자원", project:"프로젝트", note:"노트", archived:"아카이브" };
 
 // ─── tick ───
 sim.on("tick", () => {
@@ -226,6 +235,13 @@ function updateGraph(data) {
 
   sim.nodes(data.nodes);
   sim.force("link").links(data.links);
+
+  // 고아 노트 계산
+  const linkedIds = new Set(data.links.flatMap(l => [
+    typeof l.source === "object" ? l.source.id : l.source,
+    typeof l.target === "object" ? l.target.id : l.target,
+  ]));
+  orphanNoteIds = new Set(data.nodes.filter(n => n.type === "note" && !linkedIds.has(n.id)).map(n => n.id));
 
   // ─── Links join ───
   linkSel = gLink.selectAll("line")
@@ -400,11 +416,16 @@ document.getElementById("search-input").addEventListener("input", function() {
 // ─── Legend toggles ───
 const hidden = new Set();
 function applyHiddenTypes() {
-  nodeSel.style("opacity", d => hidden.has(d.type) ? 0.05 : 1);
+  nodeSel.style("opacity", d => {
+    if (hidden.has(d.type)) return 0.05;
+    if (hidden.has("orphan") && d.type === "note" && orphanNoteIds.has(d.id)) return 0.05;
+    return 1;
+  });
   linkSel.style("opacity", l => {
     const st = typeof l.source === "object" ? l.source.type : "";
     const tt = typeof l.target === "object" ? l.target.type : "";
     if (hidden.has(st) || hidden.has(tt)) return 0.03;
+    if (hidden.has("archived") && l.type === "archived-note") return 0.03;
     return l.type === "area-project" ? 0.7 : 0.5;
   });
 }
