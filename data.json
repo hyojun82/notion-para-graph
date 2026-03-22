@@ -39,7 +39,7 @@
     {
       "id": "업무프로세스/SOP",
       "type": "resource",
-      "noteCount": 11,
+      "noteCount": 12,
       "url": "https://www.notion.so/1785249e73258085ae51ef17eeb05cd3"
     },
     {
@@ -970,6 +970,11 @@
       "id": "Git Hub 수정 방법",
       "type": "note",
       "url": "https://www.notion.so/3295249e7325809aa2e4e15bc97fd2fa"
+    },
+    {
+      "id": "바탕화면 정리 법칙",
+      "type": "note",
+      "url": "https://www.notion.so/32b5249e7325800e98b3c0d0b3ea3a8f"
     }
   ],
   "links": [
@@ -1416,6 +1421,11 @@
     {
       "source": "업무프로세스/SOP",
       "target": "OneDrive 폴더 관리를 위한 분류",
+      "type": "area-note"
+    },
+    {
+      "source": "업무프로세스/SOP",
+      "target": "바탕화면 정리 법칙",
       "type": "area-note"
     },
     {
