@@ -129,7 +129,7 @@
       "id": "에멀전 오일 자동 충전",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 4,
+      "noteCount": 5,
       "url": "https://www.notion.so/2f85249e732580f8857be22f2369732f"
     },
     {
@@ -960,6 +960,11 @@
       "id": "5ml 튜브 자동 충전기 — 펌프 Flow Rate 설계 기준",
       "type": "note",
       "url": "https://www.notion.so/3275249e732580ada07feb19eaee7715"
+    },
+    {
+      "id": "에멀전 오일 소분 공정도 — 5ml 튜브 3ml 정량 충전",
+      "type": "note",
+      "url": "https://www.notion.so/3275249e732581c5be33f7d4ef4e73b5"
     },
     {
       "id": "3D 프린터기 에러 (K1Max)",
@@ -1976,6 +1981,11 @@
     {
       "source": "에멀전 오일 자동 충전",
       "target": "에멀전 오일 자동 충전 설비 검토",
+      "type": "project-note"
+    },
+    {
+      "source": "에멀전 오일 자동 충전",
+      "target": "에멀전 오일 소분 공정도 — 5ml 튜브 3ml 정량 충전",
       "type": "project-note"
     },
     {
