@@ -129,7 +129,7 @@
       "id": "에멀전 오일 자동 충전",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 3,
+      "noteCount": 4,
       "url": "https://www.notion.so/2f85249e732580f8857be22f2369732f"
     },
     {
@@ -977,7 +977,7 @@
       "url": "https://www.notion.so/32b5249e7325800e98b3c0d0b3ea3a8f"
     },
     {
-      "id": "(제목 없음)",
+      "id": "Vacuum PAD",
       "type": "note",
       "url": "https://www.notion.so/32c5249e73258081a862e0031dbb07d0"
     }
@@ -1971,6 +1971,11 @@
     {
       "source": "에멀전 오일 자동 충전",
       "target": "5ml 튜브 자동 충전기 — 펌프 Flow Rate 설계 기준",
+      "type": "project-note"
+    },
+    {
+      "source": "에멀전 오일 자동 충전",
+      "target": "에멀전 오일 자동 충전 설비 검토",
       "type": "project-note"
     },
     {
