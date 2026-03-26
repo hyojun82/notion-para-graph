@@ -122,7 +122,7 @@
       "id": "AI LLM",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 12,
+      "noteCount": 13,
       "url": "https://www.notion.so/2f85249e7325802bb5cbd31e7e5093ba"
     },
     {
@@ -985,6 +985,11 @@
       "id": "Vacuum PAD",
       "type": "note",
       "url": "https://www.notion.so/32c5249e73258081a862e0031dbb07d0"
+    },
+    {
+      "id": "ppt 스킬",
+      "type": "note",
+      "url": "https://www.notion.so/32f5249e732580a8866be16f5612ec45"
     }
   ],
   "links": [
@@ -1956,6 +1961,11 @@
     {
       "source": "AI LLM",
       "target": "Git Hub 수정 방법",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "ppt 스킬",
       "type": "project-note"
     },
     {
