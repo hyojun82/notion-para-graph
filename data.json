@@ -122,7 +122,7 @@
       "id": "AI LLM",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 13,
+      "noteCount": 14,
       "url": "https://www.notion.so/2f85249e7325802bb5cbd31e7e5093ba"
     },
     {
@@ -995,6 +995,11 @@
       "id": "ppt 스킬",
       "type": "note",
       "url": "https://www.notion.so/32f5249e732580a8866be16f5612ec45"
+    },
+    {
+      "id": "Claude 문서 작업 워크 플로우 (반자동)",
+      "type": "note",
+      "url": "https://www.notion.so/3305249e732580f697a1fb0c5bad6050"
     }
   ],
   "links": [
@@ -1971,6 +1976,11 @@
     {
       "source": "AI LLM",
       "target": "ppt 스킬",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "Claude 문서 작업 워크 플로우 (반자동)",
       "type": "project-note"
     },
     {
