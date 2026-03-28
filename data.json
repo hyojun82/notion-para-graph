@@ -39,7 +39,7 @@
     {
       "id": "업무프로세스/SOP",
       "type": "resource",
-      "noteCount": 12,
+      "noteCount": 13,
       "url": "https://www.notion.so/1785249e73258085ae51ef17eeb05cd3"
     },
     {
@@ -1000,6 +1000,11 @@
       "id": "Claude 문서 작업 워크 플로우 (반자동)",
       "type": "note",
       "url": "https://www.notion.so/3305249e732580f697a1fb0c5bad6050"
+    },
+    {
+      "id": "문서",
+      "type": "note",
+      "url": "https://www.notion.so/3315249e73258026a70fe839a0185e4a"
     }
   ],
   "links": [
@@ -1451,6 +1456,11 @@
     {
       "source": "업무프로세스/SOP",
       "target": "바탕화면 정리 법칙",
+      "type": "area-note"
+    },
+    {
+      "source": "업무프로세스/SOP",
+      "target": "문서",
       "type": "area-note"
     },
     {
