@@ -1002,7 +1002,7 @@
       "url": "https://www.notion.so/3305249e732580f697a1fb0c5bad6050"
     },
     {
-      "id": "문서",
+      "id": "문서 스타일",
       "type": "note",
       "url": "https://www.notion.so/3315249e73258026a70fe839a0185e4a"
     }
@@ -1460,7 +1460,7 @@
     },
     {
       "source": "업무프로세스/SOP",
-      "target": "문서",
+      "target": "문서 스타일",
       "type": "area-note"
     },
     {
