@@ -94,7 +94,7 @@
       "id": "digiQuark",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 21,
+      "noteCount": 22,
       "url": "https://www.notion.so/1655249e732581db91b3ffe3ec469df3"
     },
     {
@@ -1005,6 +1005,11 @@
       "id": "문서 스타일",
       "type": "note",
       "url": "https://www.notion.so/3315249e73258026a70fe839a0185e4a"
+    },
+    {
+      "id": "Door 불량 원인 분석 및 조치 방법",
+      "type": "note",
+      "url": "https://www.notion.so/33a5249e73258022bc64dfb1df26b2e0"
     }
   ],
   "links": [
@@ -1766,6 +1771,11 @@
     {
       "source": "digiQuark",
       "target": "세라믹 히터 자체 제작",
+      "type": "project-note"
+    },
+    {
+      "source": "digiQuark",
+      "target": "Door 불량 원인 분석 및 조치 방법",
       "type": "project-note"
     },
     {
