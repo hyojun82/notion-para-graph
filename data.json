@@ -129,7 +129,7 @@
       "id": "에멀전 오일 자동 충전",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 5,
+      "noteCount": 6,
       "url": "https://www.notion.so/2f85249e732580f8857be22f2369732f"
     },
     {
@@ -947,7 +947,7 @@
       "url": "https://www.notion.so/3255249e7325809fa1b8d7f483c037bb"
     },
     {
-      "id": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)",
+      "id": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)_원본",
       "type": "note",
       "url": "https://www.notion.so/3275249e732580479ca2c285a95fdba8"
     },
@@ -1010,6 +1010,11 @@
       "id": "Door 불량 원인 분석 및 조치 방법",
       "type": "note",
       "url": "https://www.notion.so/33a5249e73258022bc64dfb1df26b2e0"
+    },
+    {
+      "id": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)_수정",
+      "type": "note",
+      "url": "https://www.notion.so/33c5249e7325803f852cc86bef7f0640"
     }
   ],
   "links": [
@@ -2015,7 +2020,7 @@
     },
     {
       "source": "에멀전 오일 자동 충전",
-      "target": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)",
+      "target": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)_원본",
       "type": "project-note"
     },
     {
@@ -2031,6 +2036,11 @@
     {
       "source": "에멀전 오일 자동 충전",
       "target": "에멀전 오일 소분 공정도 — 5ml 튜브 3ml 정량 충전",
+      "type": "project-note"
+    },
+    {
+      "source": "에멀전 오일 자동 충전",
+      "target": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)_수정",
       "type": "project-note"
     },
     {
