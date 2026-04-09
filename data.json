@@ -1,12 +1,6 @@
 {
   "nodes": [
     {
-      "id": "RevoSketch",
-      "type": "area",
-      "noteCount": 6,
-      "url": "https://www.notion.so/1655249e7325812fba37c9e7ff3ceeb2"
-    },
-    {
       "id": "기구설계",
       "type": "resource",
       "noteCount": 25,
@@ -19,40 +13,40 @@
       "url": "https://www.notion.so/1655249e732581b7b340f92edbb4ba5e"
     },
     {
+      "id": "RevoSketch",
+      "type": "area",
+      "noteCount": 6,
+      "url": "https://www.notion.so/1655249e7325812fba37c9e7ff3ceeb2"
+    },
+    {
       "id": "연구노트",
       "type": "resource",
       "noteCount": 13,
       "url": "https://www.notion.so/1655249e732581df81dddae1a1d55dd9"
     },
     {
-      "id": "ME",
-      "type": "resource",
-      "noteCount": 4,
-      "url": "https://www.notion.so/1785249e732580349f79cfd0b45e2cb8"
-    },
-    {
-      "id": "디자인",
-      "type": "resource",
-      "noteCount": 5,
-      "url": "https://www.notion.so/1785249e7325804ba344cadbd8282e82"
-    },
-    {
-      "id": "업무프로세스/SOP",
-      "type": "resource",
-      "noteCount": 13,
-      "url": "https://www.notion.so/1785249e73258085ae51ef17eeb05cd3"
-    },
-    {
-      "id": "Device",
-      "type": "area",
-      "noteCount": 25,
-      "url": "https://www.notion.so/1785249e732580e29b20c6cb2da16b09"
-    },
-    {
-      "id": "생산",
+      "id": "블로그",
       "type": "resource",
       "noteCount": 2,
-      "url": "https://www.notion.so/1785249e732580f98de4e8813cb98341"
+      "url": "https://www.notion.so/3245249e732580c2a76bcb234c1a6eec"
+    },
+    {
+      "id": "자금",
+      "type": "area",
+      "noteCount": 0,
+      "url": "https://www.notion.so/31f5249e73258091b68df9eeb7b0f743"
+    },
+    {
+      "id": "인문학",
+      "type": "resource",
+      "noteCount": 2,
+      "url": "https://www.notion.so/31f5249e732580829c8bdc78718f438b"
+    },
+    {
+      "id": "컴퓨터",
+      "type": "resource",
+      "noteCount": 2,
+      "url": "https://www.notion.so/31e5249e732580bc9816d4aea3aaf7e1"
     },
     {
       "id": "기구팀",
@@ -67,35 +61,34 @@
       "url": "https://www.notion.so/19d5249e732580e1ae04c788392c46e6"
     },
     {
-      "id": "컴퓨터",
-      "type": "resource",
-      "noteCount": 2,
-      "url": "https://www.notion.so/31e5249e732580bc9816d4aea3aaf7e1"
-    },
-    {
-      "id": "인문학",
-      "type": "resource",
-      "noteCount": 2,
-      "url": "https://www.notion.so/31f5249e732580829c8bdc78718f438b"
-    },
-    {
-      "id": "자금",
+      "id": "Device",
       "type": "area",
-      "noteCount": 0,
-      "url": "https://www.notion.so/31f5249e73258091b68df9eeb7b0f743"
+      "noteCount": 25,
+      "url": "https://www.notion.so/1785249e732580e29b20c6cb2da16b09"
     },
     {
-      "id": "블로그",
+      "id": "생산",
       "type": "resource",
       "noteCount": 2,
-      "url": "https://www.notion.so/3245249e732580c2a76bcb234c1a6eec"
+      "url": "https://www.notion.so/1785249e732580f98de4e8813cb98341"
     },
     {
-      "id": "digiQuark",
-      "type": "project",
-      "status": "진행 중",
-      "noteCount": 22,
-      "url": "https://www.notion.so/1655249e732581db91b3ffe3ec469df3"
+      "id": "업무프로세스/SOP",
+      "type": "resource",
+      "noteCount": 13,
+      "url": "https://www.notion.so/1785249e73258085ae51ef17eeb05cd3"
+    },
+    {
+      "id": "디자인",
+      "type": "resource",
+      "noteCount": 5,
+      "url": "https://www.notion.so/1785249e7325804ba344cadbd8282e82"
+    },
+    {
+      "id": "ME",
+      "type": "resource",
+      "noteCount": 4,
+      "url": "https://www.notion.so/1785249e732580349f79cfd0b45e2cb8"
     },
     {
       "id": "SpinMotorAssy",
@@ -105,39 +98,11 @@
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
     },
     {
-      "id": "easyQuark",
+      "id": "digiQuark",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 25,
-      "url": "https://www.notion.so/1915249e732580a0a9fef966807cec48"
-    },
-    {
-      "id": "isoQuark",
-      "type": "project",
-      "status": "진행 중",
-      "noteCount": 4,
-      "url": "https://www.notion.so/1f55249e732580cab3efc50d99645142"
-    },
-    {
-      "id": "AI LLM",
-      "type": "project",
-      "status": "진행 중",
-      "noteCount": 14,
-      "url": "https://www.notion.so/2f85249e7325802bb5cbd31e7e5093ba"
-    },
-    {
-      "id": "에멀전 오일 자동 충전",
-      "type": "project",
-      "status": "진행 중",
-      "noteCount": 6,
-      "url": "https://www.notion.so/2f85249e732580f8857be22f2369732f"
-    },
-    {
-      "id": "인사",
-      "type": "project",
-      "status": "시작 안 함",
-      "noteCount": 2,
-      "url": "https://www.notion.so/31d5249e73258067a9c6ccbc5d275b13"
+      "noteCount": 22,
+      "url": "https://www.notion.so/1655249e732581db91b3ffe3ec469df3"
     },
     {
       "id": "3D 프린터",
@@ -147,629 +112,54 @@
       "url": "https://www.notion.so/3295249e73258098b617cb02a44a59ad"
     },
     {
-      "id": "digiQuark Magnet",
-      "type": "note",
-      "url": "https://www.notion.so/1655249e732581cab28bc5c9ba2d08f4"
-    },
-    {
-      "id": "easyQuark 특허 등록 관련 요청 자료",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580009d93eda76b016c50"
-    },
-    {
-      "id": "파레트 적재방식",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580039be8f8fb5534b091"
-    },
-    {
-      "id": "UV 프린팅",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325800aa3e8d0e4e0259faf"
-    },
-    {
-      "id": "BOM 정의",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325801594a4e8df2e9579de"
-    },
-    {
-      "id": "과제 재료비 비용 처리",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580159ec5d11331aaf2f3"
-    },
-    {
-      "id": "제조를 위한 설계 가이드",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325801fb384e3bf95461dcb"
-    },
-    {
-      "id": "기구팀 문서 관리",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325801fb69fdc88d9eb1209"
-    },
-    {
-      "id": "Harness Information",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325802185ede283fc6b6caf"
-    },
-    {
-      "id": "digiQuark Leveling Foot (Leveling Glide)",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580288626f810669eb5ed"
-    },
-    {
-      "id": "인하우스 3D 프린팅을 이용한 지그,\n고정구 등 기타 제조 보조 도구 제작법",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325802abaf7c2c8cc3102f0"
-    },
-    {
-      "id": "판금, 절삭 플레이트 부",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325802c83cdcba36c76979a"
-    },
-    {
-      "id": "OJT",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580339069c26cbfc05270"
-    },
-    {
-      "id": "금형사출 불량 사례 모음",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e73258037b1a9c580f6ee4fa8"
-    },
-    {
-      "id": "O-ring 규격",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325803c905bc861046c5252"
-    },
-    {
-      "id": "Plastic Material info",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e73258057b765eee5abcbf45b"
-    },
-    {
-      "id": "스펀지 종류",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325805a99c6d950dee8fa32"
-    },
-    {
-      "id": "수출 관련 서류",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325805b8330f1bc9be5ce6f"
-    },
-    {
-      "id": "초소형 슬립링",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580628e90da4f1985fef9"
-    },
-    {
-      "id": "인벤터 도면->캐드로 변환시 축척 문제",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580669aead858b3ffaa27"
-    },
-    {
-      "id": "레이저 마킹기",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325806bb861f8a8a2e71c34"
-    },
-    {
-      "id": "수불부란",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325806cb263fb2055089dbb"
-    },
-    {
-      "id": "도장색의 종류",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325806fbccef5684a215390"
-    },
-    {
-      "id": "연차 계획서",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580708208eca4a21bf570"
-    },
-    {
-      "id": "SUMIFS 함수",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580708241c8ec8115802a"
-    },
-    {
-      "id": "도면",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e73258084a5d7cc755ac0623a"
-    },
-    {
-      "id": "eIFU - Electronic Instruction for Use Automation",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580909d5ff09833f8d185"
-    },
-    {
-      "id": "meviy123",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e73258091a2e4e5817f3b603c"
-    },
-    {
-      "id": "레이저 마킹기 선택 방법",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325809991dac99b9a882f78"
-    },
-    {
-      "id": "알루마이트 아노다이징 차이",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325809ca254ee92e445c382"
-    },
-    {
-      "id": "도면 탬플릿 변경",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e7325809ea68fc92c06c6a408"
-    },
-    {
-      "id": "업무 프로세스",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580a0b3d3dae4219b53a6"
-    },
-    {
-      "id": "생산 이력서",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580a3a93dd17facb21560"
-    },
-    {
-      "id": "Disk",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580ab9af0e358c1e7feb2"
-    },
-    {
-      "id": "isoQuark POCT 디자인",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580b0b496cfe9f241bcb4"
-    },
-    {
-      "id": "푸시오픈 자석 래치 (빠찌링)",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580bda10fdbee37a5bb0a"
-    },
-    {
-      "id": "LED indicator",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580c29b37d3a7ab35212c"
-    },
-    {
-      "id": "수불부",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580c8b6b7e08b9f5c3e08"
-    },
-    {
-      "id": "digiQuark 제품 사양 (TPP)",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580cc8f03c1d3865f35b6"
-    },
-    {
-      "id": "3D 프린터 필라메트",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580cf9070efef00bf9f11"
-    },
-    {
-      "id": "제조업 위험성 평가 담당자 교육",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580d48aeff92d48085999"
-    },
-    {
-      "id": "계약 관련",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580d68231e6e9e3347f4c"
-    },
-    {
-      "id": "재질·표면 처리·사이즈",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580d7afb3f25192c1ded6"
-    },
-    {
-      "id": "OJT 교육자료",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580dfa18bd300244a8c49"
-    },
-    {
-      "id": "digiQuark v7.5 D3 sub-Main List",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580ee9091f552661ef9e0"
-    },
-    {
-      "id": "기어제도법",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580eeafb5d7d94db1af2f"
-    },
-    {
-      "id": "역방향 Reverse Proxy 작동하는 방법",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580f08aedd7195c16e7a1"
-    },
-    {
-      "id": "PC HDPE",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580f29a66cb309fe4b66e"
-    },
-    {
-      "id": "Mabuchi Motor (RF-400CA-12265 D/V5.9)",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580f49774e877eb65a1e2"
-    },
-    {
-      "id": "UV 프린터",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580f5b776d89ed915254a"
-    },
-    {
-      "id": "생산부 인수인계",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580f5b85fe3ce64190978"
-    },
-    {
-      "id": "도면 스타일 및 표준 편집기",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580f6998fced41fa0573f"
-    },
-    {
-      "id": "NEJE Master 2",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580fe90a7cbb353e9563f"
-    },
-    {
-      "id": "AutoCAD DXF - 3D 변환",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580ffa717e6500e3a351b"
-    },
-    {
-      "id": "고속 3D 프린터 구매",
-      "type": "note",
-      "url": "https://www.notion.so/1785249e732580ffa8e4ca8653d9b12e"
-    },
-    {
-      "id": "Slip Ring Pin",
-      "type": "note",
-      "url": "https://www.notion.so/1795249e73258056bbcff5cca48e8100"
-    },
-    {
-      "id": "제품설계 힌지(Hinge) 설계",
-      "type": "note",
-      "url": "https://www.notion.so/17a5249e732580158bb3e72725b71e8d"
-    },
-    {
-      "id": "3D 프린팅 부품 용 리빙 힌지를 어떻게 설계합니까?",
-      "type": "note",
-      "url": "https://www.notion.so/17a5249e732580c083b9da79ec661687"
-    },
-    {
-      "id": "CNC 가공용 플라스틱 재료를 선택하는 방법은 무엇입니까?",
-      "type": "note",
-      "url": "https://www.notion.so/17a5249e732580c691f9cbe7b655f45a"
-    },
-    {
-      "id": "제품 개발 프로세서 (정리중)",
-      "type": "note",
-      "url": "https://www.notion.so/1815249e7325802082a0fcef3bf4f0eb"
+      "id": "인사",
+      "type": "project",
+      "status": "시작 안 함",
+      "noteCount": 2,
+      "url": "https://www.notion.so/31d5249e73258067a9c6ccbc5d275b13"
     },
     {
-      "id": "cradle 설계",
-      "type": "note",
-      "url": "https://www.notion.so/1825249e7325805b981bdd6cf1d8ee99"
-    },
-    {
-      "id": "Step 모델링 분리하기",
-      "type": "note",
-      "url": "https://www.notion.so/1915249e73258075ab5be5031734e16c"
-    },
-    {
-      "id": "Disk 정보 (RS-CFSD-E001_FSD Disk)",
-      "type": "note",
-      "url": "https://www.notion.so/1915249e73258087b85bc0d7eab70f93"
-    },
-    {
-      "id": "단위 환산",
-      "type": "note",
-      "url": "https://www.notion.so/1915249e732580c9b5fdd132304eee05"
-    },
-    {
-      "id": "PCB 서포트",
-      "type": "note",
-      "url": "https://www.notion.so/1925249e732580a5a30cd3784b2cb5d1"
-    },
-    {
-      "id": "히터 (Heater Ring) MCH",
-      "type": "note",
-      "url": "https://www.notion.so/1965249e732580b6860cf8241af256d7"
-    },
-    {
-      "id": "양각 금형(피나클)",
-      "type": "note",
-      "url": "https://www.notion.so/1975249e732580efb44bcd3125a66d42"
-    },
-    {
-      "id": "easyQuark 제품 사양 (TPP)",
-      "type": "note",
-      "url": "https://www.notion.so/1985249e732580e689cbed482a293f4f"
-    },
-    {
-      "id": "제조업 관리감독자 교육",
-      "type": "note",
-      "url": "https://www.notion.so/1995249e7325806ca4f8e96e4145554a"
-    },
-    {
-      "id": "Disk Cap 실링 검토 (열팽창)",
-      "type": "note",
-      "url": "https://www.notion.so/19a5249e7325806f9094daab41627b6b"
-    },
-    {
-      "id": "볼스크류 구리스 적용 검토",
-      "type": "note",
-      "url": "https://www.notion.so/19a5249e732580939843fe95a7851d72"
-    },
-    {
-      "id": "AL Heater PCB 연습용",
-      "type": "note",
-      "url": "https://www.notion.so/1a05249e732580318c8de36b67378908"
-    },
-    {
-      "id": "생각",
-      "type": "note",
-      "url": "https://www.notion.so/1a05249e732580cf985df62512bceef1"
-    },
-    {
-      "id": "easyQuark Sub-Main list",
-      "type": "note",
-      "url": "https://www.notion.so/1a15249e7325807eb437ca15a8350f29"
-    },
-    {
-      "id": "팬 종류",
-      "type": "note",
-      "url": "https://www.notion.so/1a15249e732580888f68c648b89a740a"
-    },
-    {
-      "id": "Chamber Module 단열 검토",
-      "type": "note",
-      "url": "https://www.notion.so/1a55249e73258067b4c3dfb34e8d14b7"
-    },
-    {
-      "id": "easyQuark v1 → v2 전환 작업",
-      "type": "note",
-      "url": "https://www.notion.so/1a65249e73258027a051ed5f3b5e79f3"
-    },
-    {
-      "id": "랜더링 정보",
-      "type": "note",
-      "url": "https://www.notion.so/1ac5249e732580988b34d61a2c1b9d63"
-    },
-    {
-      "id": "자석 방향",
-      "type": "note",
-      "url": "https://www.notion.so/1ae5249e7325816aa35bcdbe7f1b63f9"
-    },
-    {
-      "id": "세라믹 히터링",
-      "type": "note",
-      "url": "https://www.notion.so/1bb5249e732580db9cdccaa5359ed459"
-    },
-    {
-      "id": "세라믹 히터 자체 제작",
-      "type": "note",
-      "url": "https://www.notion.so/1bd5249e732580629ab2d5559919d94e"
-    },
-    {
-      "id": "Laser cutting  조건",
-      "type": "note",
-      "url": "https://www.notion.so/1c15249e732580f1b6dbc189bf8ebd5d"
-    },
-    {
-      "id": "제품 이슈를 관리하고 해결하는 노하우",
-      "type": "note",
-      "url": "https://www.notion.so/1c25249e7325804e9ff1f932ef4664a5"
-    },
-    {
-      "id": "easyQuark 제품 무게",
-      "type": "note",
-      "url": "https://www.notion.so/1c35249e7325803a8c6ad223b90795ca"
-    },
-    {
-      "id": "진단키트필름_분자진단필름_형광진단필름_VITL",
-      "type": "note",
-      "url": "https://www.notion.so/1c35249e732580da81dac405f021b100"
-    },
-    {
-      "id": "라벨 제작",
-      "type": "note",
-      "url": "https://www.notion.so/1c45249e732580068764fa771a3ae663"
-    },
-    {
-      "id": "PCB 사양",
-      "type": "note",
-      "url": "https://www.notion.so/1c45249e732580339ee1c1ea0b93c9f7"
-    },
-    {
-      "id": "2분 규칙",
-      "type": "note",
-      "url": "https://www.notion.so/1c75249e73258014b7dbe568912063ff"
-    },
-    {
-      "id": "제품 포장 관련 작성해야 하는 문서",
-      "type": "note",
-      "url": "https://www.notion.so/1cb5249e732580ed99ddc15053fb03c3"
-    },
-    {
-      "id": "바코드 인식을 위한 카메라 해상도",
-      "type": "note",
-      "url": "https://www.notion.so/1f15249e73258055bdb2e9a7be94a877"
-    },
-    {
-      "id": "Battery Cradle Module 설계",
-      "type": "note",
-      "url": "https://www.notion.so/1f55249e73258012bd57c9a57b5355bf"
-    },
-    {
-      "id": "히팅 블럭 NTC 서멀 컴파운드 종류",
-      "type": "note",
-      "url": "https://www.notion.so/1fc5249e73258080940bd9a8a88c628a"
-    },
-    {
-      "id": "히팅 블럭 NTC 온도 센서 실링(방수) 처리 검토",
-      "type": "note",
-      "url": "https://www.notion.so/1fc5249e732580db9b25f76b7c85a08b"
-    },
-    {
-      "id": "e-mail 설정",
-      "type": "note",
-      "url": "https://www.notion.so/20d5249e732580efa451cc75bed6aaa1"
-    },
-    {
-      "id": "케이블 절연",
-      "type": "note",
-      "url": "https://www.notion.so/20e5249e732580b884badc94d1409fcc"
-    },
-    {
-      "id": "IR Sensor Board",
-      "type": "note",
-      "url": "https://www.notion.so/2125249e732580f3bb80de7746f8e50e"
-    },
-    {
-      "id": "보안 볼트",
-      "type": "note",
-      "url": "https://www.notion.so/22c5249e732580928abcfe4349a43486"
-    },
-    {
-      "id": "easyQuark 방열",
-      "type": "note",
-      "url": "https://www.notion.so/2465249e732580c1abc4e6ea361efc98"
-    },
-    {
-      "id": "digiQuark 업그레이드",
-      "type": "note",
-      "url": "https://www.notion.so/24f5249e7325800bab51f161ee33d257"
-    },
-    {
-      "id": "Nas 423+",
-      "type": "note",
-      "url": "https://www.notion.so/2515249e732580bb9ad1ca72db811c08"
-    },
-    {
-      "id": "라즈베리파이@@",
-      "type": "note",
-      "url": "https://www.notion.so/2535249e732580b7a063d35a28ec614c"
-    },
-    {
-      "id": "cmd 명령어",
-      "type": "note",
-      "url": "https://www.notion.so/25b5249e732580569d6de0694219e036"
-    },
-    {
-      "id": "RPM 지그",
-      "type": "note",
-      "url": "https://www.notion.so/25d5249e73258002aed1d4626e72b5e8"
-    },
-    {
-      "id": "RPM JIG 업그레이드",
-      "type": "note",
-      "url": "https://www.notion.so/25d5249e73258025a805e764da308db2"
-    },
-    {
-      "id": "Emulsion Oil Tube Sealing",
-      "type": "note",
-      "url": "https://www.notion.so/26f5249e73258007864ce0431c9665bc"
+      "id": "에멀전 오일 자동 충전",
+      "type": "project",
+      "status": "진행 중",
+      "noteCount": 6,
+      "url": "https://www.notion.so/2f85249e732580f8857be22f2369732f"
     },
     {
-      "id": "진공주형 QDM",
-      "type": "note",
-      "url": "https://www.notion.so/2755249e73258038a128f2736e5a0989"
-    },
-    {
-      "id": "도면 재질표기 약어",
-      "type": "note",
-      "url": "https://www.notion.so/2795249e7325800b8f0be11398f97871"
-    },
-    {
-      "id": "호일 밀봉기 DGYF-400A",
-      "type": "note",
-      "url": "https://www.notion.so/27a5249e7325807f9029e9d5b5905d63"
-    },
-    {
-      "id": "digiQuark D4 설계 변경",
-      "type": "note",
-      "url": "https://www.notion.so/2885249e7325800a8a5fc5a8d5b5d628"
-    },
-    {
-      "id": "도면 규격",
-      "type": "note",
-      "url": "https://www.notion.so/2885249e732580a38e0de3f8296587dc"
-    },
-    {
-      "id": "ESD 관련",
-      "type": "note",
-      "url": "https://www.notion.so/28b5249e73258015a411dbce4e3475f8"
-    },
-    {
-      "id": "digiQuark 히터링 조립성 개선",
-      "type": "note",
-      "url": "https://www.notion.so/28f5249e732580cd8bd4c9990ed7f978"
-    },
-    {
-      "id": "Device별 판매시 예상되는 문제점.",
-      "type": "note",
-      "url": "https://www.notion.so/2925249e732580fa8e55e75bb0c30766"
+      "id": "AI LLM",
+      "type": "project",
+      "status": "진행 중",
+      "noteCount": 14,
+      "url": "https://www.notion.so/2f85249e7325802bb5cbd31e7e5093ba"
     },
     {
-      "id": "isoQuark mini",
-      "type": "note",
-      "url": "https://www.notion.so/2955249e732580f58d80cc6b578ae326"
-    },
-    {
-      "id": "IR 온도센서 커버",
-      "type": "note",
-      "url": "https://www.notion.so/29b5249e732580178d2bf6f167652c43"
-    },
-    {
-      "id": "베어링의 구조와 종류",
-      "type": "note",
-      "url": "https://www.notion.so/2a75249e732580dfb220f908bb28f92d"
-    },
-    {
-      "id": "Claude Code + NotebookLM: The Zero-Token Research Pipeline",
-      "type": "note",
-      "url": "https://www.notion.so/2a75249e73258346ad1f818e5fdcb77b"
-    },
-    {
-      "id": "Diffusion film",
-      "type": "note",
-      "url": "https://www.notion.so/2af5249e732580bab0b2ec5b6d61d099"
-    },
-    {
-      "id": "파트 넘버, 리비전 관리",
-      "type": "note",
-      "url": "https://www.notion.so/2b15249e7325808ba562c7287be9eb4d"
-    },
-    {
-      "id": "과제 자료 초안",
-      "type": "note",
-      "url": "https://www.notion.so/2bc5249e73258000bbd3f799f89adcb0"
-    },
-    {
-      "id": "시약 쏠림 문제",
-      "type": "note",
-      "url": "https://www.notion.so/2d15249e7325801bbf77d7d134005d84"
+      "id": "isoQuark",
+      "type": "project",
+      "status": "진행 중",
+      "noteCount": 4,
+      "url": "https://www.notion.so/1f55249e732580cab3efc50d99645142"
     },
     {
-      "id": "Scan Me QR 제작",
-      "type": "note",
-      "url": "https://www.notion.so/2e35249e7325807b811cc288f3f3a52e"
+      "id": "easyQuark",
+      "type": "project",
+      "status": "진행 중",
+      "noteCount": 25,
+      "url": "https://www.notion.so/1915249e732580a0a9fef966807cec48"
     },
     {
-      "id": "거버 파일",
+      "id": "조직에서 반드시 내보내야 하는 사람",
       "type": "note",
-      "url": "https://www.notion.so/2e65249e7325805ab0f6dc83f1965e8e"
+      "url": "https://www.notion.so/31d5249e732580e289c6fb0afeb99291"
     },
     {
-      "id": "[외장 케이스 사출 재질 선정] 관련 정보",
+      "id": "Integrated membranes within centrifugal microfluidic devices: a review - Lab on a Chip (RSC Publishing)",
       "type": "note",
-      "url": "https://www.notion.so/2e85249e7325800bb63ecc55044ef40b"
+      "url": "https://www.notion.so/31a5249e732580f4a4f3d378858fd651"
     },
     {
-      "id": "의료기기 외장 케이스 난연 등급 정리",
+      "id": "digiQuark 폰트",
       "type": "note",
-      "url": "https://www.notion.so/2ea5249e7325807091f3c43e904b1ff2"
+      "url": "https://www.notion.so/31a5249e7325809fb73fdf785d4a8d67"
     },
     {
       "id": "폴더 정리 방법",
@@ -777,59 +167,14 @@
       "url": "https://www.notion.so/2ec5249e7325805790a8d82faa3c739b"
     },
     {
-      "id": "digiQuark 최소 인증",
-      "type": "note",
-      "url": "https://www.notion.so/2ee5249e73258042a15bf899a95acc26"
-    },
-    {
-      "id": "PE폼 구매 방법",
-      "type": "note",
-      "url": "https://www.notion.so/2ee5249e73258046a14efa404d06ee54"
-    },
-    {
-      "id": "6 in 1  퀵 체인지 압착기 세트",
-      "type": "note",
-      "url": "https://www.notion.so/2ef5249e7325806a9b84c8935d97a31e"
-    },
-    {
-      "id": "Quick Guidance",
-      "type": "note",
-      "url": "https://www.notion.so/2f35249e732580e896c8e8da3dd27a45"
-    },
-    {
-      "id": "ai 선택 가이드 (기구 설계)",
-      "type": "note",
-      "url": "https://www.notion.so/2f55249e73258031821fc33308c6e2b1"
-    },
-    {
       "id": "digiQuark v7.5 D4 Sub-Main List",
       "type": "note",
       "url": "https://www.notion.so/2f55249e732580c9842acef3fda3fdb8"
     },
     {
-      "id": "GTP와 Copilot의 AI 분류",
+      "id": "미세유체공학(Microfluidics)이란",
       "type": "note",
-      "url": "https://www.notion.so/2f85249e7325807fb8abf552933d8666"
-    },
-    {
-      "id": "바이메탈",
-      "type": "note",
-      "url": "https://www.notion.so/2f85249e732580b78e6be03542567de2"
-    },
-    {
-      "id": "2026년 공부할 것",
-      "type": "note",
-      "url": "https://www.notion.so/3055249e7325801c861ccf36efe805e8"
-    },
-    {
-      "id": "Cluade MCP 사이트",
-      "type": "note",
-      "url": "https://www.notion.so/3085249e732580a3a440ea46165ff652"
-    },
-    {
-      "id": "Power Adapter",
-      "type": "note",
-      "url": "https://www.notion.so/30c5249e7325804fbe91c6b8342f4715"
+      "url": "https://www.notion.so/30d5249e73258064b98fcb7d6e34333c"
     },
     {
       "id": "생산 효율을 높이는 방법",
@@ -842,149 +187,694 @@
       "url": "https://www.notion.so/30c5249e732580dc8542d1e69eaac03d"
     },
     {
-      "id": "미세유체공학(Microfluidics)이란",
+      "id": "Power Adapter",
       "type": "note",
-      "url": "https://www.notion.so/30d5249e73258064b98fcb7d6e34333c"
+      "url": "https://www.notion.so/30c5249e7325804fbe91c6b8342f4715"
     },
     {
-      "id": "digiQuark 폰트",
+      "id": "Cluade MCP 사이트",
       "type": "note",
-      "url": "https://www.notion.so/31a5249e7325809fb73fdf785d4a8d67"
+      "url": "https://www.notion.so/3085249e732580a3a440ea46165ff652"
     },
     {
-      "id": "Integrated membranes within centrifugal microfluidic devices: a review - Lab on a Chip (RSC Publishing)",
+      "id": "ai 선택 가이드 (기구 설계)",
       "type": "note",
-      "url": "https://www.notion.so/31a5249e732580f4a4f3d378858fd651"
+      "url": "https://www.notion.so/2f55249e73258031821fc33308c6e2b1"
     },
     {
-      "id": "조직에서 반드시 내보내야 하는 사람",
+      "id": "2026년 공부할 것",
       "type": "note",
-      "url": "https://www.notion.so/31d5249e732580e289c6fb0afeb99291"
+      "url": "https://www.notion.so/3055249e7325801c861ccf36efe805e8"
     },
     {
-      "id": "스크립트 자료를 체계적으로 관리할 수 있는 노션 데이터베이스 구조",
+      "id": "easyQuark Sub-Main list",
       "type": "note",
-      "url": "https://www.notion.so/31e5249e7325801798ffd65cc92fe05e"
+      "url": "https://www.notion.so/1a15249e7325807eb437ca15a8350f29"
     },
     {
-      "id": "회사의 한해 목표가 애매모호할때?",
+      "id": "IR 온도센서 커버",
       "type": "note",
-      "url": "https://www.notion.so/31e5249e732580349327c482d0d8975a"
+      "url": "https://www.notion.so/29b5249e732580178d2bf6f167652c43"
     },
     {
-      "id": "ai 툴.. 코파일럿, 클로드,  chatgpt, 제미나이 비교",
+      "id": "RPM 지그",
       "type": "note",
-      "url": "https://www.notion.so/31e5249e73258065a02ec31d46168280"
+      "url": "https://www.notion.so/25d5249e73258002aed1d4626e72b5e8"
     },
     {
-      "id": "to-do? calendar",
+      "id": "Chamber Module 단열 검토",
       "type": "note",
-      "url": "https://www.notion.so/31e5249e7325806e9e05c621032ff23f"
+      "url": "https://www.notion.so/1a55249e73258067b4c3dfb34e8d14b7"
     },
     {
-      "id": "OneDrive 폴더 관리를 위한 분류",
+      "id": "Device별 판매시 예상되는 문제점.",
       "type": "note",
-      "url": "https://www.notion.so/31e5249e7325807cb2dff18542114bc4"
+      "url": "https://www.notion.so/2925249e732580fa8e55e75bb0c30766"
     },
     {
-      "id": "🎨 추천 AI 이미지 생성 도구",
+      "id": "과제 자료 초안",
       "type": "note",
-      "url": "https://www.notion.so/31e5249e73258086ac02fef216dd86d2"
+      "url": "https://www.notion.so/2bc5249e73258000bbd3f799f89adcb0"
     },
     {
-      "id": "STEP와 STL 파일의 차이",
+      "id": "Emulsion Oil Tube Sealing",
       "type": "note",
-      "url": "https://www.notion.so/31e5249e73258090a665d2c8aae3b742"
+      "url": "https://www.notion.so/26f5249e73258007864ce0431c9665bc"
     },
     {
-      "id": "클로드 커넥터와 MCP의 차이",
+      "id": "digiQuark 최소 인증",
       "type": "note",
-      "url": "https://www.notion.so/31e5249e732580998511c72ec080afa2"
+      "url": "https://www.notion.so/2ee5249e73258042a15bf899a95acc26"
     },
     {
-      "id": "🧪 Claude 프로젝트 설정 가이드 — 체외진단기기 개발 담당자용",
+      "id": "Quick Guidance",
       "type": "note",
-      "url": "https://www.notion.so/31e5249e732580a7a302caa4decd2cfa"
+      "url": "https://www.notion.so/2f35249e732580e896c8e8da3dd27a45"
     },
     {
-      "id": "노션 공식 커넥터 vs Notion MCP 비교표",
+      "id": "바이메탈",
       "type": "note",
-      "url": "https://www.notion.so/31e5249e732580c2baa2cbaf6cbd4ecb"
+      "url": "https://www.notion.so/2f85249e732580b78e6be03542567de2"
     },
     {
-      "id": "후처리(아노다이징)의 열 특성 변화",
+      "id": "케이블 절연",
       "type": "note",
-      "url": "https://www.notion.so/31e5249e732580d39848f440c93210d3"
+      "url": "https://www.notion.so/20e5249e732580b884badc94d1409fcc"
     },
     {
-      "id": "Claude 프로젝트(Projects) 완전 가이드",
+      "id": "AutoCAD DXF - 3D 변환",
       "type": "note",
-      "url": "https://www.notion.so/31e5249e732580fbb93cd2415824350e"
+      "url": "https://www.notion.so/1785249e732580ffa717e6500e3a351b"
     },
     {
-      "id": "Slide Door Issue",
+      "id": "GTP와 Copilot의 AI 분류",
       "type": "note",
-      "url": "https://www.notion.so/31f5249e7325807ba179c421a72c51ab"
+      "url": "https://www.notion.so/2f85249e7325807fb8abf552933d8666"
     },
     {
-      "id": "rh",
+      "id": "easyQuark v1 → v2 전환 작업",
       "type": "note",
-      "url": "https://www.notion.so/3235249e73258082ac01e48fc002e497"
+      "url": "https://www.notion.so/1a65249e73258027a051ed5f3b5e79f3"
     },
     {
-      "id": "공부해야 할 것들",
+      "id": "6 in 1  퀵 체인지 압착기 세트",
       "type": "note",
-      "url": "https://www.notion.so/3235249e732580f9a628dc59f3d21a09"
+      "url": "https://www.notion.so/2ef5249e7325806a9b84c8935d97a31e"
     },
     {
-      "id": "치매 환우 가족을 위한 완전 가이드",
+      "id": "easyQuark 제품 사양 (TPP)",
       "type": "note",
-      "url": "https://www.notion.so/3245249e732580708d0bd6d5b3d65035"
+      "url": "https://www.notion.so/1985249e732580e689cbed482a293f4f"
     },
     {
-      "id": "중량 측정식 자동 충전기 (CSY-M90)",
+      "id": "3D 프린터 필라메트",
       "type": "note",
-      "url": "https://www.notion.so/3255249e7325809fa1b8d7f483c037bb"
+      "url": "https://www.notion.so/1785249e732580cf9070efef00bf9f11"
     },
     {
-      "id": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)_원본",
+      "id": "의료기기 외장 케이스 난연 등급 정리",
       "type": "note",
-      "url": "https://www.notion.so/3275249e732580479ca2c285a95fdba8"
+      "url": "https://www.notion.so/2ea5249e7325807091f3c43e904b1ff2"
     },
     {
-      "id": "에멀전 오일 자동 충전 설비 검토",
+      "id": "PE폼 구매 방법",
       "type": "note",
-      "url": "https://www.notion.so/3275249e732580738396cb789b718a51"
+      "url": "https://www.notion.so/2ee5249e73258046a14efa404d06ee54"
     },
     {
-      "id": "5ml 튜브 자동 충전기 — 펌프 Flow Rate 설계 기준",
+      "id": "[외장 케이스 사출 재질 선정] 관련 정보",
       "type": "note",
-      "url": "https://www.notion.so/3275249e732580ada07feb19eaee7715"
+      "url": "https://www.notion.so/2e85249e7325800bb63ecc55044ef40b"
     },
     {
-      "id": "에멀전 오일 소분 공정도 — 5ml 튜브 3ml 정량 충전",
+      "id": "거버 파일",
       "type": "note",
-      "url": "https://www.notion.so/3275249e732581c5be33f7d4ef4e73b5"
+      "url": "https://www.notion.so/2e65249e7325805ab0f6dc83f1965e8e"
     },
     {
-      "id": "3D 프린터기 에러 (K1Max)",
+      "id": "시약 쏠림 문제",
       "type": "note",
-      "url": "https://www.notion.so/3285249e732580e58456e1078001640a"
+      "url": "https://www.notion.so/2d15249e7325801bbf77d7d134005d84"
     },
     {
-      "id": "Git Hub 수정 방법",
+      "id": "Scan Me QR 제작",
       "type": "note",
-      "url": "https://www.notion.so/3295249e7325809aa2e4e15bc97fd2fa"
+      "url": "https://www.notion.so/2e35249e7325807b811cc288f3f3a52e"
     },
     {
-      "id": "바탕화면 정리 법칙",
+      "id": "파트 넘버, 리비전 관리",
       "type": "note",
-      "url": "https://www.notion.so/32b5249e7325800e98b3c0d0b3ea3a8f"
+      "url": "https://www.notion.so/2b15249e7325808ba562c7287be9eb4d"
     },
     {
-      "id": "Vacuum PAD",
+      "id": "Diffusion film",
       "type": "note",
-      "url": "https://www.notion.so/32c5249e73258081a862e0031dbb07d0"
+      "url": "https://www.notion.so/2af5249e732580bab0b2ec5b6d61d099"
+    },
+    {
+      "id": "베어링의 구조와 종류",
+      "type": "note",
+      "url": "https://www.notion.so/2a75249e732580dfb220f908bb28f92d"
+    },
+    {
+      "id": "연차 계획서",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580708208eca4a21bf570"
+    },
+    {
+      "id": "isoQuark mini",
+      "type": "note",
+      "url": "https://www.notion.so/2955249e732580f58d80cc6b578ae326"
+    },
+    {
+      "id": "digiQuark 히터링 조립성 개선",
+      "type": "note",
+      "url": "https://www.notion.so/28f5249e732580cd8bd4c9990ed7f978"
+    },
+    {
+      "id": "ESD 관련",
+      "type": "note",
+      "url": "https://www.notion.so/28b5249e73258015a411dbce4e3475f8"
+    },
+    {
+      "id": "digiQuark D4 설계 변경",
+      "type": "note",
+      "url": "https://www.notion.so/2885249e7325800a8a5fc5a8d5b5d628"
+    },
+    {
+      "id": "도면 규격",
+      "type": "note",
+      "url": "https://www.notion.so/2885249e732580a38e0de3f8296587dc"
+    },
+    {
+      "id": "도면 재질표기 약어",
+      "type": "note",
+      "url": "https://www.notion.so/2795249e7325800b8f0be11398f97871"
+    },
+    {
+      "id": "호일 밀봉기 DGYF-400A",
+      "type": "note",
+      "url": "https://www.notion.so/27a5249e7325807f9029e9d5b5905d63"
+    },
+    {
+      "id": "진공주형 QDM",
+      "type": "note",
+      "url": "https://www.notion.so/2755249e73258038a128f2736e5a0989"
+    },
+    {
+      "id": "RPM JIG 업그레이드",
+      "type": "note",
+      "url": "https://www.notion.so/25d5249e73258025a805e764da308db2"
+    },
+    {
+      "id": "cmd 명령어",
+      "type": "note",
+      "url": "https://www.notion.so/25b5249e732580569d6de0694219e036"
+    },
+    {
+      "id": "라즈베리파이@@",
+      "type": "note",
+      "url": "https://www.notion.so/2535249e732580b7a063d35a28ec614c"
+    },
+    {
+      "id": "Nas 423+",
+      "type": "note",
+      "url": "https://www.notion.so/2515249e732580bb9ad1ca72db811c08"
+    },
+    {
+      "id": "digiQuark 업그레이드",
+      "type": "note",
+      "url": "https://www.notion.so/24f5249e7325800bab51f161ee33d257"
+    },
+    {
+      "id": "digiQuark v7.5 D3 sub-Main List",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580ee9091f552661ef9e0"
+    },
+    {
+      "id": "digiQuark 제품 사양 (TPP)",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580cc8f03c1d3865f35b6"
+    },
+    {
+      "id": "easyQuark 방열",
+      "type": "note",
+      "url": "https://www.notion.so/2465249e732580c1abc4e6ea361efc98"
+    },
+    {
+      "id": "보안 볼트",
+      "type": "note",
+      "url": "https://www.notion.so/22c5249e732580928abcfe4349a43486"
+    },
+    {
+      "id": "Laser cutting  조건",
+      "type": "note",
+      "url": "https://www.notion.so/1c15249e732580f1b6dbc189bf8ebd5d"
+    },
+    {
+      "id": "레이저 마킹기 선택 방법",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325809991dac99b9a882f78"
+    },
+    {
+      "id": "IR Sensor Board",
+      "type": "note",
+      "url": "https://www.notion.so/2125249e732580f3bb80de7746f8e50e"
+    },
+    {
+      "id": "Disk 정보 (RS-CFSD-E001_FSD Disk)",
+      "type": "note",
+      "url": "https://www.notion.so/1915249e73258087b85bc0d7eab70f93"
+    },
+    {
+      "id": "e-mail 설정",
+      "type": "note",
+      "url": "https://www.notion.so/20d5249e732580efa451cc75bed6aaa1"
+    },
+    {
+      "id": "제품 포장 관련 작성해야 하는 문서",
+      "type": "note",
+      "url": "https://www.notion.so/1cb5249e732580ed99ddc15053fb03c3"
+    },
+    {
+      "id": "히팅 블럭 NTC 온도 센서 실링(방수) 처리 검토",
+      "type": "note",
+      "url": "https://www.notion.so/1fc5249e732580db9b25f76b7c85a08b"
+    },
+    {
+      "id": "히팅 블럭 NTC 서멀 컴파운드 종류",
+      "type": "note",
+      "url": "https://www.notion.so/1fc5249e73258080940bd9a8a88c628a"
+    },
+    {
+      "id": "cradle 설계",
+      "type": "note",
+      "url": "https://www.notion.so/1825249e7325805b981bdd6cf1d8ee99"
+    },
+    {
+      "id": "Battery Cradle Module 설계",
+      "type": "note",
+      "url": "https://www.notion.so/1f55249e73258012bd57c9a57b5355bf"
+    },
+    {
+      "id": "바코드 인식을 위한 카메라 해상도",
+      "type": "note",
+      "url": "https://www.notion.so/1f15249e73258055bdb2e9a7be94a877"
+    },
+    {
+      "id": "2분 규칙",
+      "type": "note",
+      "url": "https://www.notion.so/1c75249e73258014b7dbe568912063ff"
+    },
+    {
+      "id": "PCB 사양",
+      "type": "note",
+      "url": "https://www.notion.so/1c45249e732580339ee1c1ea0b93c9f7"
+    },
+    {
+      "id": "라벨 제작",
+      "type": "note",
+      "url": "https://www.notion.so/1c45249e732580068764fa771a3ae663"
+    },
+    {
+      "id": "진단키트필름_분자진단필름_형광진단필름_VITL",
+      "type": "note",
+      "url": "https://www.notion.so/1c35249e732580da81dac405f021b100"
+    },
+    {
+      "id": "easyQuark 제품 무게",
+      "type": "note",
+      "url": "https://www.notion.so/1c35249e7325803a8c6ad223b90795ca"
+    },
+    {
+      "id": "제품 이슈를 관리하고 해결하는 노하우",
+      "type": "note",
+      "url": "https://www.notion.so/1c25249e7325804e9ff1f932ef4664a5"
+    },
+    {
+      "id": "볼스크류 구리스 적용 검토",
+      "type": "note",
+      "url": "https://www.notion.so/19a5249e732580939843fe95a7851d72"
+    },
+    {
+      "id": "Disk",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580ab9af0e358c1e7feb2"
+    },
+    {
+      "id": "제품설계 힌지(Hinge) 설계",
+      "type": "note",
+      "url": "https://www.notion.so/17a5249e732580158bb3e72725b71e8d"
+    },
+    {
+      "id": "3D 프린팅 부품 용 리빙 힌지를 어떻게 설계합니까?",
+      "type": "note",
+      "url": "https://www.notion.so/17a5249e732580c083b9da79ec661687"
+    },
+    {
+      "id": "초소형 슬립링",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580628e90da4f1985fef9"
+    },
+    {
+      "id": "도면 스타일 및 표준 편집기",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580f6998fced41fa0573f"
+    },
+    {
+      "id": "O-ring 규격",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325803c905bc861046c5252"
+    },
+    {
+      "id": "digiQuark Magnet",
+      "type": "note",
+      "url": "https://www.notion.so/1655249e732581cab28bc5c9ba2d08f4"
+    },
+    {
+      "id": "SUMIFS 함수",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580708241c8ec8115802a"
+    },
+    {
+      "id": "알루마이트 아노다이징 차이",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325809ca254ee92e445c382"
+    },
+    {
+      "id": "NEJE Master 2",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580fe90a7cbb353e9563f"
+    },
+    {
+      "id": "레이저 마킹기",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325806bb861f8a8a2e71c34"
+    },
+    {
+      "id": "eIFU - Electronic Instruction for Use Automation",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580909d5ff09833f8d185"
+    },
+    {
+      "id": "스펀지 종류",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325805a99c6d950dee8fa32"
+    },
+    {
+      "id": "자석 방향",
+      "type": "note",
+      "url": "https://www.notion.so/1ae5249e7325816aa35bcdbe7f1b63f9"
+    },
+    {
+      "id": "UV 프린팅",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325800aa3e8d0e4e0259faf"
+    },
+    {
+      "id": "생산부 인수인계",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580f5b85fe3ce64190978"
+    },
+    {
+      "id": "세라믹 히터 자체 제작",
+      "type": "note",
+      "url": "https://www.notion.so/1bd5249e732580629ab2d5559919d94e"
+    },
+    {
+      "id": "세라믹 히터링",
+      "type": "note",
+      "url": "https://www.notion.so/1bb5249e732580db9cdccaa5359ed459"
+    },
+    {
+      "id": "제품 개발 프로세서 (정리중)",
+      "type": "note",
+      "url": "https://www.notion.so/1815249e7325802082a0fcef3bf4f0eb"
+    },
+    {
+      "id": "Slip Ring Pin",
+      "type": "note",
+      "url": "https://www.notion.so/1795249e73258056bbcff5cca48e8100"
+    },
+    {
+      "id": "랜더링 정보",
+      "type": "note",
+      "url": "https://www.notion.so/1ac5249e732580988b34d61a2c1b9d63"
+    },
+    {
+      "id": "Disk Cap 실링 검토 (열팽창)",
+      "type": "note",
+      "url": "https://www.notion.so/19a5249e7325806f9094daab41627b6b"
+    },
+    {
+      "id": "Mabuchi Motor (RF-400CA-12265 D/V5.9)",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580f49774e877eb65a1e2"
+    },
+    {
+      "id": "AL Heater PCB 연습용",
+      "type": "note",
+      "url": "https://www.notion.so/1a05249e732580318c8de36b67378908"
+    },
+    {
+      "id": "히터 (Heater Ring) MCH",
+      "type": "note",
+      "url": "https://www.notion.so/1965249e732580b6860cf8241af256d7"
+    },
+    {
+      "id": "팬 종류",
+      "type": "note",
+      "url": "https://www.notion.so/1a15249e732580888f68c648b89a740a"
+    },
+    {
+      "id": "생각",
+      "type": "note",
+      "url": "https://www.notion.so/1a05249e732580cf985df62512bceef1"
+    },
+    {
+      "id": "제조업 관리감독자 교육",
+      "type": "note",
+      "url": "https://www.notion.so/1995249e7325806ca4f8e96e4145554a"
+    },
+    {
+      "id": "양각 금형(피나클)",
+      "type": "note",
+      "url": "https://www.notion.so/1975249e732580efb44bcd3125a66d42"
+    },
+    {
+      "id": "PCB 서포트",
+      "type": "note",
+      "url": "https://www.notion.so/1925249e732580a5a30cd3784b2cb5d1"
+    },
+    {
+      "id": "단위 환산",
+      "type": "note",
+      "url": "https://www.notion.so/1915249e732580c9b5fdd132304eee05"
+    },
+    {
+      "id": "Step 모델링 분리하기",
+      "type": "note",
+      "url": "https://www.notion.so/1915249e73258075ab5be5031734e16c"
+    },
+    {
+      "id": "CNC 가공용 플라스틱 재료를 선택하는 방법은 무엇입니까?",
+      "type": "note",
+      "url": "https://www.notion.so/17a5249e732580c691f9cbe7b655f45a"
+    },
+    {
+      "id": "BOM 정의",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325801594a4e8df2e9579de"
+    },
+    {
+      "id": "PC HDPE",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580f29a66cb309fe4b66e"
+    },
+    {
+      "id": "도면 탬플릿 변경",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325809ea68fc92c06c6a408"
+    },
+    {
+      "id": "인하우스 3D 프린팅을 이용한 지그,\n고정구 등 기타 제조 보조 도구 제작법",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325802abaf7c2c8cc3102f0"
+    },
+    {
+      "id": "meviy123",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e73258091a2e4e5817f3b603c"
+    },
+    {
+      "id": "판금, 절삭 플레이트 부",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325802c83cdcba36c76979a"
+    },
+    {
+      "id": "인벤터 도면->캐드로 변환시 축척 문제",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580669aead858b3ffaa27"
+    },
+    {
+      "id": "도면",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e73258084a5d7cc755ac0623a"
+    },
+    {
+      "id": "고속 3D 프린터 구매",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580ffa8e4ca8653d9b12e"
+    },
+    {
+      "id": "제조를 위한 설계 가이드",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325801fb384e3bf95461dcb"
+    },
+    {
+      "id": "금형사출 불량 사례 모음",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e73258037b1a9c580f6ee4fa8"
+    },
+    {
+      "id": "Plastic Material info",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e73258057b765eee5abcbf45b"
+    },
+    {
+      "id": "푸시오픈 자석 래치 (빠찌링)",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580bda10fdbee37a5bb0a"
+    },
+    {
+      "id": "재질·표면 처리·사이즈",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580d7afb3f25192c1ded6"
+    },
+    {
+      "id": "기어제도법",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580eeafb5d7d94db1af2f"
+    },
+    {
+      "id": "도장색의 종류",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325806fbccef5684a215390"
+    },
+    {
+      "id": "생산 이력서",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580a3a93dd17facb21560"
+    },
+    {
+      "id": "과제 재료비 비용 처리",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580159ec5d11331aaf2f3"
+    },
+    {
+      "id": "역방향 Reverse Proxy 작동하는 방법",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580f08aedd7195c16e7a1"
+    },
+    {
+      "id": "제조업 위험성 평가 담당자 교육",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580d48aeff92d48085999"
+    },
+    {
+      "id": "OJT",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580339069c26cbfc05270"
+    },
+    {
+      "id": "수불부란",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325806cb263fb2055089dbb"
+    },
+    {
+      "id": "파레트 적재방식",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580039be8f8fb5534b091"
+    },
+    {
+      "id": "easyQuark 특허 등록 관련 요청 자료",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580009d93eda76b016c50"
+    },
+    {
+      "id": "Harness Information",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325802185ede283fc6b6caf"
+    },
+    {
+      "id": "OJT 교육자료",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580dfa18bd300244a8c49"
+    },
+    {
+      "id": "계약 관련",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580d68231e6e9e3347f4c"
+    },
+    {
+      "id": "업무 프로세스",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580a0b3d3dae4219b53a6"
+    },
+    {
+      "id": "수출 관련 서류",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325805b8330f1bc9be5ce6f"
+    },
+    {
+      "id": "기구팀 문서 관리",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e7325801fb69fdc88d9eb1209"
+    },
+    {
+      "id": "수불부",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580c8b6b7e08b9f5c3e08"
+    },
+    {
+      "id": "digiQuark Leveling Foot (Leveling Glide)",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580288626f810669eb5ed"
+    },
+    {
+      "id": "isoQuark POCT 디자인",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580b0b496cfe9f241bcb4"
+    },
+    {
+      "id": "LED indicator",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580c29b37d3a7ab35212c"
+    },
+    {
+      "id": "UV 프린터",
+      "type": "note",
+      "url": "https://www.notion.so/1785249e732580f5b776d89ed915254a"
+    },
+    {
+      "id": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)_수정",
+      "type": "note",
+      "url": "https://www.notion.so/33c5249e7325803f852cc86bef7f0640"
+    },
+    {
+      "id": "Door 불량 원인 분석 및 조치 방법",
+      "type": "note",
+      "url": "https://www.notion.so/33a5249e73258022bc64dfb1df26b2e0"
+    },
+    {
+      "id": "문서 스타일",
+      "type": "note",
+      "url": "https://www.notion.so/3315249e73258026a70fe839a0185e4a"
+    },
+    {
+      "id": "Claude 문서 작업 워크 플로우 (반자동)",
+      "type": "note",
+      "url": "https://www.notion.so/3305249e732580f697a1fb0c5bad6050"
     },
     {
       "id": "엄마",
@@ -997,57 +887,137 @@
       "url": "https://www.notion.so/32f5249e732580a8866be16f5612ec45"
     },
     {
-      "id": "Claude 문서 작업 워크 플로우 (반자동)",
+      "id": "Vacuum PAD",
       "type": "note",
-      "url": "https://www.notion.so/3305249e732580f697a1fb0c5bad6050"
+      "url": "https://www.notion.so/32c5249e73258081a862e0031dbb07d0"
     },
     {
-      "id": "문서 스타일",
+      "id": "바탕화면 정리 법칙",
       "type": "note",
-      "url": "https://www.notion.so/3315249e73258026a70fe839a0185e4a"
+      "url": "https://www.notion.so/32b5249e7325800e98b3c0d0b3ea3a8f"
     },
     {
-      "id": "Door 불량 원인 분석 및 조치 방법",
+      "id": "Git Hub 수정 방법",
       "type": "note",
-      "url": "https://www.notion.so/33a5249e73258022bc64dfb1df26b2e0"
+      "url": "https://www.notion.so/3295249e7325809aa2e4e15bc97fd2fa"
     },
     {
-      "id": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)_수정",
+      "id": "3D 프린터기 에러 (K1Max)",
       "type": "note",
-      "url": "https://www.notion.so/33c5249e7325803f852cc86bef7f0640"
+      "url": "https://www.notion.so/3285249e732580e58456e1078001640a"
+    },
+    {
+      "id": "에멀전 오일 소분 공정도 — 5ml 튜브 3ml 정량 충전",
+      "type": "note",
+      "url": "https://www.notion.so/3275249e732581c5be33f7d4ef4e73b5"
+    },
+    {
+      "id": "에멀전 오일 자동 충전 설비 검토",
+      "type": "note",
+      "url": "https://www.notion.so/3275249e732580738396cb789b718a51"
+    },
+    {
+      "id": "5ml 튜브 자동 충전기 — 펌프 Flow Rate 설계 기준",
+      "type": "note",
+      "url": "https://www.notion.so/3275249e732580ada07feb19eaee7715"
+    },
+    {
+      "id": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)_원본",
+      "type": "note",
+      "url": "https://www.notion.so/3275249e732580479ca2c285a95fdba8"
+    },
+    {
+      "id": "중량 측정식 자동 충전기 (CSY-M90)",
+      "type": "note",
+      "url": "https://www.notion.so/3255249e7325809fa1b8d7f483c037bb"
+    },
+    {
+      "id": "치매 환우 가족을 위한 완전 가이드",
+      "type": "note",
+      "url": "https://www.notion.so/3245249e732580708d0bd6d5b3d65035"
+    },
+    {
+      "id": "Claude Code + NotebookLM: The Zero-Token Research Pipeline",
+      "type": "note",
+      "url": "https://www.notion.so/2a75249e73258346ad1f818e5fdcb77b"
+    },
+    {
+      "id": "공부해야 할 것들",
+      "type": "note",
+      "url": "https://www.notion.so/3235249e732580f9a628dc59f3d21a09"
+    },
+    {
+      "id": "rh",
+      "type": "note",
+      "url": "https://www.notion.so/3235249e73258082ac01e48fc002e497"
+    },
+    {
+      "id": "Slide Door Issue",
+      "type": "note",
+      "url": "https://www.notion.so/31f5249e7325807ba179c421a72c51ab"
+    },
+    {
+      "id": "OneDrive 폴더 관리를 위한 분류",
+      "type": "note",
+      "url": "https://www.notion.so/31e5249e7325807cb2dff18542114bc4"
+    },
+    {
+      "id": "to-do? calendar",
+      "type": "note",
+      "url": "https://www.notion.so/31e5249e7325806e9e05c621032ff23f"
+    },
+    {
+      "id": "STEP와 STL 파일의 차이",
+      "type": "note",
+      "url": "https://www.notion.so/31e5249e73258090a665d2c8aae3b742"
+    },
+    {
+      "id": "ai 툴.. 코파일럿, 클로드,  chatgpt, 제미나이 비교",
+      "type": "note",
+      "url": "https://www.notion.so/31e5249e73258065a02ec31d46168280"
+    },
+    {
+      "id": "회사의 한해 목표가 애매모호할때?",
+      "type": "note",
+      "url": "https://www.notion.so/31e5249e732580349327c482d0d8975a"
+    },
+    {
+      "id": "후처리(아노다이징)의 열 특성 변화",
+      "type": "note",
+      "url": "https://www.notion.so/31e5249e732580d39848f440c93210d3"
+    },
+    {
+      "id": "스크립트 자료를 체계적으로 관리할 수 있는 노션 데이터베이스 구조",
+      "type": "note",
+      "url": "https://www.notion.so/31e5249e7325801798ffd65cc92fe05e"
+    },
+    {
+      "id": "클로드 커넥터와 MCP의 차이",
+      "type": "note",
+      "url": "https://www.notion.so/31e5249e732580998511c72ec080afa2"
+    },
+    {
+      "id": "노션 공식 커넥터 vs Notion MCP 비교표",
+      "type": "note",
+      "url": "https://www.notion.so/31e5249e732580c2baa2cbaf6cbd4ecb"
+    },
+    {
+      "id": "Claude 프로젝트(Projects) 완전 가이드",
+      "type": "note",
+      "url": "https://www.notion.so/31e5249e732580fbb93cd2415824350e"
+    },
+    {
+      "id": "🧪 Claude 프로젝트 설정 가이드 — 체외진단기기 개발 담당자용",
+      "type": "note",
+      "url": "https://www.notion.so/31e5249e732580a7a302caa4decd2cfa"
+    },
+    {
+      "id": "🎨 추천 AI 이미지 생성 도구",
+      "type": "note",
+      "url": "https://www.notion.so/31e5249e73258086ac02fef216dd86d2"
     }
   ],
   "links": [
-    {
-      "source": "RevoSketch",
-      "target": "과제 재료비 비용 처리",
-      "type": "area-note"
-    },
-    {
-      "source": "RevoSketch",
-      "target": "연차 계획서",
-      "type": "area-note"
-    },
-    {
-      "source": "RevoSketch",
-      "target": "생산 이력서",
-      "type": "area-note"
-    },
-    {
-      "source": "RevoSketch",
-      "target": "생각",
-      "type": "area-note"
-    },
-    {
-      "source": "RevoSketch",
-      "target": "e-mail 설정",
-      "type": "area-note"
-    },
-    {
-      "source": "RevoSketch",
-      "target": "digiQuark 폰트",
-      "type": "area-note"
-    },
     {
       "source": "기구설계",
       "target": "Disk",
@@ -1299,6 +1269,36 @@
       "type": "area-note"
     },
     {
+      "source": "RevoSketch",
+      "target": "과제 재료비 비용 처리",
+      "type": "area-note"
+    },
+    {
+      "source": "RevoSketch",
+      "target": "연차 계획서",
+      "type": "area-note"
+    },
+    {
+      "source": "RevoSketch",
+      "target": "생산 이력서",
+      "type": "area-note"
+    },
+    {
+      "source": "RevoSketch",
+      "target": "생각",
+      "type": "area-note"
+    },
+    {
+      "source": "RevoSketch",
+      "target": "e-mail 설정",
+      "type": "area-note"
+    },
+    {
+      "source": "RevoSketch",
+      "target": "digiQuark 폰트",
+      "type": "area-note"
+    },
+    {
       "source": "연구노트",
       "target": "레이저 마킹기",
       "type": "area-note"
@@ -1364,113 +1364,68 @@
       "type": "area-note"
     },
     {
-      "source": "ME",
-      "target": "레이저 마킹기 선택 방법",
+      "source": "블로그",
+      "target": "치매 환우 가족을 위한 완전 가이드",
       "type": "area-note"
     },
     {
-      "source": "ME",
-      "target": "NEJE Master 2",
+      "source": "블로그",
+      "target": "3D 프린터기 에러 (K1Max)",
       "type": "area-note"
     },
     {
-      "source": "ME",
-      "target": "Harness Information",
+      "source": "인문학",
+      "target": "조직에서 반드시 내보내야 하는 사람",
       "type": "area-note"
     },
     {
-      "source": "ME",
-      "target": "easyQuark 특허 등록 관련 요청 자료",
+      "source": "인문학",
+      "target": "회사의 한해 목표가 애매모호할때?",
       "type": "area-note"
     },
     {
-      "source": "디자인",
-      "target": "eIFU - Electronic Instruction for Use Automation",
+      "source": "컴퓨터",
+      "target": "Nas 423+",
       "type": "area-note"
     },
     {
-      "source": "디자인",
-      "target": "isoQuark POCT 디자인",
+      "source": "컴퓨터",
+      "target": "라즈베리파이@@",
       "type": "area-note"
     },
     {
-      "source": "디자인",
-      "target": "랜더링 정보",
+      "source": "기구팀",
+      "target": "히팅 블럭 NTC 온도 센서 실링(방수) 처리 검토",
       "type": "area-note"
     },
     {
-      "source": "디자인",
-      "target": "Scan Me QR 제작",
+      "source": "기구팀",
+      "target": "Device별 판매시 예상되는 문제점.",
       "type": "area-note"
     },
     {
-      "source": "디자인",
-      "target": "Quick Guidance",
+      "source": "기구팀",
+      "target": "중량 측정식 자동 충전기 (CSY-M90)",
       "type": "area-note"
     },
     {
-      "source": "업무프로세스/SOP",
-      "target": "기구팀 문서 관리",
+      "source": "생산관리",
+      "target": "히팅 블럭 NTC 온도 센서 실링(방수) 처리 검토",
       "type": "area-note"
     },
     {
-      "source": "업무프로세스/SOP",
-      "target": "수출 관련 서류",
+      "source": "생산관리",
+      "target": "PE폼 구매 방법",
       "type": "area-note"
     },
     {
-      "source": "업무프로세스/SOP",
-      "target": "업무 프로세스",
+      "source": "생산관리",
+      "target": "Emulsion Oil Tube Sealing",
       "type": "area-note"
     },
     {
-      "source": "업무프로세스/SOP",
-      "target": "계약 관련",
-      "type": "area-note"
-    },
-    {
-      "source": "업무프로세스/SOP",
-      "target": "OJT 교육자료",
-      "type": "area-note"
-    },
-    {
-      "source": "업무프로세스/SOP",
-      "target": "제품 개발 프로세서 (정리중)",
-      "type": "area-note"
-    },
-    {
-      "source": "업무프로세스/SOP",
-      "target": "2분 규칙",
-      "type": "area-note"
-    },
-    {
-      "source": "업무프로세스/SOP",
-      "target": "폴더 정리 방법",
-      "type": "area-note"
-    },
-    {
-      "source": "업무프로세스/SOP",
-      "target": "스크립트 자료를 체계적으로 관리할 수 있는 노션 데이터베이스 구조",
-      "type": "area-note"
-    },
-    {
-      "source": "업무프로세스/SOP",
-      "target": "to-do? calendar",
-      "type": "area-note"
-    },
-    {
-      "source": "업무프로세스/SOP",
-      "target": "OneDrive 폴더 관리를 위한 분류",
-      "type": "area-note"
-    },
-    {
-      "source": "업무프로세스/SOP",
-      "target": "바탕화면 정리 법칙",
-      "type": "area-note"
-    },
-    {
-      "source": "업무프로세스/SOP",
-      "target": "문서 스타일",
+      "source": "생산관리",
+      "target": "생산 효율을 높이는 방법",
       "type": "area-note"
     },
     {
@@ -1609,69 +1564,124 @@
       "type": "area-note"
     },
     {
-      "source": "기구팀",
-      "target": "히팅 블럭 NTC 온도 센서 실링(방수) 처리 검토",
+      "source": "업무프로세스/SOP",
+      "target": "기구팀 문서 관리",
       "type": "area-note"
     },
     {
-      "source": "기구팀",
-      "target": "Device별 판매시 예상되는 문제점.",
+      "source": "업무프로세스/SOP",
+      "target": "수출 관련 서류",
       "type": "area-note"
     },
     {
-      "source": "기구팀",
-      "target": "중량 측정식 자동 충전기 (CSY-M90)",
+      "source": "업무프로세스/SOP",
+      "target": "업무 프로세스",
       "type": "area-note"
     },
     {
-      "source": "생산관리",
-      "target": "히팅 블럭 NTC 온도 센서 실링(방수) 처리 검토",
+      "source": "업무프로세스/SOP",
+      "target": "계약 관련",
       "type": "area-note"
     },
     {
-      "source": "생산관리",
-      "target": "PE폼 구매 방법",
+      "source": "업무프로세스/SOP",
+      "target": "OJT 교육자료",
       "type": "area-note"
     },
     {
-      "source": "생산관리",
-      "target": "Emulsion Oil Tube Sealing",
+      "source": "업무프로세스/SOP",
+      "target": "제품 개발 프로세서 (정리중)",
       "type": "area-note"
     },
     {
-      "source": "생산관리",
-      "target": "생산 효율을 높이는 방법",
+      "source": "업무프로세스/SOP",
+      "target": "2분 규칙",
       "type": "area-note"
     },
     {
-      "source": "컴퓨터",
-      "target": "Nas 423+",
+      "source": "업무프로세스/SOP",
+      "target": "폴더 정리 방법",
       "type": "area-note"
     },
     {
-      "source": "컴퓨터",
-      "target": "라즈베리파이@@",
+      "source": "업무프로세스/SOP",
+      "target": "스크립트 자료를 체계적으로 관리할 수 있는 노션 데이터베이스 구조",
       "type": "area-note"
     },
     {
-      "source": "인문학",
-      "target": "조직에서 반드시 내보내야 하는 사람",
+      "source": "업무프로세스/SOP",
+      "target": "to-do? calendar",
       "type": "area-note"
     },
     {
-      "source": "인문학",
-      "target": "회사의 한해 목표가 애매모호할때?",
+      "source": "업무프로세스/SOP",
+      "target": "OneDrive 폴더 관리를 위한 분류",
       "type": "area-note"
     },
     {
-      "source": "블로그",
-      "target": "치매 환우 가족을 위한 완전 가이드",
+      "source": "업무프로세스/SOP",
+      "target": "바탕화면 정리 법칙",
       "type": "area-note"
     },
     {
-      "source": "블로그",
-      "target": "3D 프린터기 에러 (K1Max)",
+      "source": "업무프로세스/SOP",
+      "target": "문서 스타일",
       "type": "area-note"
+    },
+    {
+      "source": "디자인",
+      "target": "eIFU - Electronic Instruction for Use Automation",
+      "type": "area-note"
+    },
+    {
+      "source": "디자인",
+      "target": "isoQuark POCT 디자인",
+      "type": "area-note"
+    },
+    {
+      "source": "디자인",
+      "target": "랜더링 정보",
+      "type": "area-note"
+    },
+    {
+      "source": "디자인",
+      "target": "Scan Me QR 제작",
+      "type": "area-note"
+    },
+    {
+      "source": "디자인",
+      "target": "Quick Guidance",
+      "type": "area-note"
+    },
+    {
+      "source": "ME",
+      "target": "레이저 마킹기 선택 방법",
+      "type": "area-note"
+    },
+    {
+      "source": "ME",
+      "target": "NEJE Master 2",
+      "type": "area-note"
+    },
+    {
+      "source": "ME",
+      "target": "Harness Information",
+      "type": "area-note"
+    },
+    {
+      "source": "ME",
+      "target": "easyQuark 특허 등록 관련 요청 자료",
+      "type": "area-note"
+    },
+    {
+      "source": "SpinMotorAssy",
+      "target": "초소형 슬립링",
+      "type": "project-note"
+    },
+    {
+      "source": "SpinMotorAssy",
+      "target": "Slip Ring Pin",
+      "type": "project-note"
     },
     {
       "source": "digiQuark",
@@ -1784,13 +1794,153 @@
       "type": "project-note"
     },
     {
-      "source": "SpinMotorAssy",
-      "target": "초소형 슬립링",
+      "source": "3D 프린터",
+      "target": "3D 프린터기 에러 (K1Max)",
       "type": "project-note"
     },
     {
-      "source": "SpinMotorAssy",
-      "target": "Slip Ring Pin",
+      "source": "기구설계",
+      "target": "3D 프린터",
+      "type": "area-project"
+    },
+    {
+      "source": "인사",
+      "target": "조직에서 반드시 내보내야 하는 사람",
+      "type": "project-note"
+    },
+    {
+      "source": "인사",
+      "target": "회사의 한해 목표가 애매모호할때?",
+      "type": "project-note"
+    },
+    {
+      "source": "에멀전 오일 자동 충전",
+      "target": "중량 측정식 자동 충전기 (CSY-M90)",
+      "type": "project-note"
+    },
+    {
+      "source": "에멀전 오일 자동 충전",
+      "target": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)_원본",
+      "type": "project-note"
+    },
+    {
+      "source": "에멀전 오일 자동 충전",
+      "target": "5ml 튜브 자동 충전기 — 펌프 Flow Rate 설계 기준",
+      "type": "project-note"
+    },
+    {
+      "source": "에멀전 오일 자동 충전",
+      "target": "에멀전 오일 자동 충전 설비 검토",
+      "type": "project-note"
+    },
+    {
+      "source": "에멀전 오일 자동 충전",
+      "target": "에멀전 오일 소분 공정도 — 5ml 튜브 3ml 정량 충전",
+      "type": "project-note"
+    },
+    {
+      "source": "에멀전 오일 자동 충전",
+      "target": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)_수정",
+      "type": "project-note"
+    },
+    {
+      "source": "기구팀",
+      "target": "에멀전 오일 자동 충전",
+      "type": "area-project"
+    },
+    {
+      "source": "AI LLM",
+      "target": "GTP와 Copilot의 AI 분류",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "Cluade MCP 사이트",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "ai 선택 가이드 (기구 설계)",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "🎨 추천 AI 이미지 생성 도구",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "🧪 Claude 프로젝트 설정 가이드 — 체외진단기기 개발 담당자용",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "Claude 프로젝트(Projects) 완전 가이드",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "노션 공식 커넥터 vs Notion MCP 비교표",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "클로드 커넥터와 MCP의 차이",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "ai 툴.. 코파일럿, 클로드,  chatgpt, 제미나이 비교",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "rh",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "Claude Code + NotebookLM: The Zero-Token Research Pipeline",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "Git Hub 수정 방법",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "ppt 스킬",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "Claude 문서 작업 워크 플로우 (반자동)",
+      "type": "project-note"
+    },
+    {
+      "source": "Study",
+      "target": "AI LLM",
+      "type": "area-project"
+    },
+    {
+      "source": "isoQuark",
+      "target": "히팅 블럭 NTC 서멀 컴파운드 종류",
+      "type": "project-note"
+    },
+    {
+      "source": "isoQuark",
+      "target": "히팅 블럭 NTC 온도 센서 실링(방수) 처리 검토",
+      "type": "project-note"
+    },
+    {
+      "source": "isoQuark",
+      "target": "isoQuark mini",
+      "type": "project-note"
+    },
+    {
+      "source": "isoQuark",
+      "target": "생산 효율을 높이는 방법",
       "type": "project-note"
     },
     {
@@ -1917,156 +2067,6 @@
       "source": "easyQuark",
       "target": "미세유체공학(Microfluidics)이란",
       "type": "project-note"
-    },
-    {
-      "source": "isoQuark",
-      "target": "히팅 블럭 NTC 서멀 컴파운드 종류",
-      "type": "project-note"
-    },
-    {
-      "source": "isoQuark",
-      "target": "히팅 블럭 NTC 온도 센서 실링(방수) 처리 검토",
-      "type": "project-note"
-    },
-    {
-      "source": "isoQuark",
-      "target": "isoQuark mini",
-      "type": "project-note"
-    },
-    {
-      "source": "isoQuark",
-      "target": "생산 효율을 높이는 방법",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "GTP와 Copilot의 AI 분류",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "Cluade MCP 사이트",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "ai 선택 가이드 (기구 설계)",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "🎨 추천 AI 이미지 생성 도구",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "🧪 Claude 프로젝트 설정 가이드 — 체외진단기기 개발 담당자용",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "Claude 프로젝트(Projects) 완전 가이드",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "노션 공식 커넥터 vs Notion MCP 비교표",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "클로드 커넥터와 MCP의 차이",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "ai 툴.. 코파일럿, 클로드,  chatgpt, 제미나이 비교",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "rh",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "Claude Code + NotebookLM: The Zero-Token Research Pipeline",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "Git Hub 수정 방법",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "ppt 스킬",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "Claude 문서 작업 워크 플로우 (반자동)",
-      "type": "project-note"
-    },
-    {
-      "source": "Study",
-      "target": "AI LLM",
-      "type": "area-project"
-    },
-    {
-      "source": "에멀전 오일 자동 충전",
-      "target": "중량 측정식 자동 충전기 (CSY-M90)",
-      "type": "project-note"
-    },
-    {
-      "source": "에멀전 오일 자동 충전",
-      "target": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)_원본",
-      "type": "project-note"
-    },
-    {
-      "source": "에멀전 오일 자동 충전",
-      "target": "5ml 튜브 자동 충전기 — 펌프 Flow Rate 설계 기준",
-      "type": "project-note"
-    },
-    {
-      "source": "에멀전 오일 자동 충전",
-      "target": "에멀전 오일 자동 충전 설비 검토",
-      "type": "project-note"
-    },
-    {
-      "source": "에멀전 오일 자동 충전",
-      "target": "에멀전 오일 소분 공정도 — 5ml 튜브 3ml 정량 충전",
-      "type": "project-note"
-    },
-    {
-      "source": "에멀전 오일 자동 충전",
-      "target": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)_수정",
-      "type": "project-note"
-    },
-    {
-      "source": "기구팀",
-      "target": "에멀전 오일 자동 충전",
-      "type": "area-project"
-    },
-    {
-      "source": "인사",
-      "target": "조직에서 반드시 내보내야 하는 사람",
-      "type": "project-note"
-    },
-    {
-      "source": "인사",
-      "target": "회사의 한해 목표가 애매모호할때?",
-      "type": "project-note"
-    },
-    {
-      "source": "3D 프린터",
-      "target": "3D 프린터기 에러 (K1Max)",
-      "type": "project-note"
-    },
-    {
-      "source": "기구설계",
-      "target": "3D 프린터",
-      "type": "area-project"
     }
   ]
 }
