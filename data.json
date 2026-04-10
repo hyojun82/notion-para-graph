@@ -101,7 +101,7 @@
       "id": "digiQuark",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 22,
+      "noteCount": 23,
       "url": "https://www.notion.so/1655249e732581db91b3ffe3ec469df3"
     },
     {
@@ -855,6 +855,11 @@
       "id": "UV 프린터",
       "type": "note",
       "url": "https://www.notion.so/1785249e732580f5b776d89ed915254a"
+    },
+    {
+      "id": "digiQuark 생산에 필요한 지그",
+      "type": "note",
+      "url": "https://www.notion.so/33e5249e7325809bb2e2cf94b653c147"
     },
     {
       "id": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)_수정",
@@ -1791,6 +1796,11 @@
     {
       "source": "digiQuark",
       "target": "Door 불량 원인 분석 및 조치 방법",
+      "type": "project-note"
+    },
+    {
+      "source": "digiQuark",
+      "target": "digiQuark 생산에 필요한 지그",
       "type": "project-note"
     },
     {
