@@ -75,7 +75,7 @@
     {
       "id": "업무프로세스/SOP",
       "type": "resource",
-      "noteCount": 13,
+      "noteCount": 14,
       "url": "https://www.notion.so/1785249e73258085ae51ef17eeb05cd3"
     },
     {
@@ -103,6 +103,13 @@
       "status": "진행 중",
       "noteCount": 23,
       "url": "https://www.notion.so/1655249e732581db91b3ffe3ec469df3"
+    },
+    {
+      "id": "Notion",
+      "type": "project",
+      "status": "진행 중",
+      "noteCount": 1,
+      "url": "https://www.notion.so/3415249e73258030b856c1be974455a3"
     },
     {
       "id": "3D 프린터",
@@ -855,6 +862,16 @@
       "id": "UV 프린터",
       "type": "note",
       "url": "https://www.notion.so/1785249e732580f5b776d89ed915254a"
+    },
+    {
+      "id": "문서 공유 시스템",
+      "type": "note",
+      "url": "https://www.notion.so/3415249e7325808ca78bfbc41af729ca"
+    },
+    {
+      "id": "노션에서 업무와 개인 일정 관리 방법",
+      "type": "note",
+      "url": "https://www.notion.so/3415249e73258011a413cf13261d7309"
     },
     {
       "id": "2026 워크샵 발표 자료",
@@ -1639,6 +1656,11 @@
       "type": "area-note"
     },
     {
+      "source": "업무프로세스/SOP",
+      "target": "문서 공유 시스템",
+      "type": "area-note"
+    },
+    {
       "source": "디자인",
       "target": "eIFU - Electronic Instruction for Use Automation",
       "type": "area-note"
@@ -1812,6 +1834,16 @@
       "source": "digiQuark",
       "target": "digiQuark 생산에 필요한 지그",
       "type": "project-note"
+    },
+    {
+      "source": "Notion",
+      "target": "노션에서 업무와 개인 일정 관리 방법",
+      "type": "project-note"
+    },
+    {
+      "source": "Study",
+      "target": "Notion",
+      "type": "area-project"
     },
     {
       "source": "3D 프린터",
