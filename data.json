@@ -87,7 +87,7 @@
     {
       "id": "ME",
       "type": "resource",
-      "noteCount": 4,
+      "noteCount": 5,
       "url": "https://www.notion.so/1785249e732580349f79cfd0b45e2cb8"
     },
     {
@@ -855,6 +855,11 @@
       "id": "UV 프린터",
       "type": "note",
       "url": "https://www.notion.so/1785249e732580f5b776d89ed915254a"
+    },
+    {
+      "id": "2026 워크샵 발표 자료",
+      "type": "note",
+      "url": "https://www.notion.so/3415249e732580a79e1bfd4bce571331"
     },
     {
       "id": "digiQuark 생산에 필요한 지그",
@@ -1676,6 +1681,11 @@
     {
       "source": "ME",
       "target": "easyQuark 특허 등록 관련 요청 자료",
+      "type": "area-note"
+    },
+    {
+      "source": "ME",
+      "target": "2026 워크샵 발표 자료",
       "type": "area-note"
     },
     {
