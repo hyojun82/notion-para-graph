@@ -33,7 +33,7 @@
     {
       "id": "자금",
       "type": "area",
-      "noteCount": 0,
+      "noteCount": 1,
       "url": "https://www.notion.so/31f5249e73258091b68df9eeb7b0f743"
     },
     {
@@ -51,7 +51,7 @@
     {
       "id": "기구팀",
       "type": "area",
-      "noteCount": 3,
+      "noteCount": 5,
       "url": "https://www.notion.so/19d5249e732580789fbdfa9eabeeab7f"
     },
     {
@@ -136,7 +136,7 @@
       "id": "AI LLM",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 16,
+      "noteCount": 17,
       "url": "https://www.notion.so/2f85249e7325802bb5cbd31e7e5093ba"
     },
     {
@@ -1416,6 +1416,11 @@
       "type": "area-note"
     },
     {
+      "source": "자금",
+      "target": "엄마",
+      "type": "area-note"
+    },
+    {
       "source": "인문학",
       "target": "조직에서 반드시 내보내야 하는 사람",
       "type": "area-note"
@@ -1448,6 +1453,16 @@
     {
       "source": "기구팀",
       "target": "중량 측정식 자동 충전기 (CSY-M90)",
+      "type": "area-note"
+    },
+    {
+      "source": "기구팀",
+      "target": "Door 불량 원인 분석 및 조치 방법",
+      "type": "area-note"
+    },
+    {
+      "source": "기구팀",
+      "target": "에멀전 오일 소분 공정도 — 5ml 튜브 3ml 정량 충전",
       "type": "area-note"
     },
     {
@@ -2008,6 +2023,11 @@
     {
       "source": "AI LLM",
       "target": "클로드 데스크탑, 코워크, 코드의 설정 파일 저장위치",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "공부해야 할 것들",
       "type": "project-note"
     },
     {
