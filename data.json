@@ -449,7 +449,7 @@
       "url": "https://www.notion.so/3085249e732580a3a440ea46165ff652"
     },
     {
-      "id": "🎨 추천 AI 이미지 생성 도구",
+      "id": "추천 AI 이미지 생성 도구",
       "type": "note",
       "url": "https://www.notion.so/31e5249e73258086ac02fef216dd86d2"
     },
@@ -474,7 +474,7 @@
       "url": "https://www.notion.so/31e5249e732580998511c72ec080afa2"
     },
     {
-      "id": "ai 툴.. 코파일럿, 클로드,  chatgpt, 제미나이 비교",
+      "id": "ai 툴.. 코파일럿, 클로드,  chatgpt, 제미나이 비교 (기구 설계 관점)",
       "type": "note",
       "url": "https://www.notion.so/31e5249e73258065a02ec31d46168280"
     },
@@ -512,11 +512,6 @@
       "id": "digiQuark v7.5 D4 Sub-Main List",
       "type": "note",
       "url": "https://www.notion.so/2f55249e732580c9842acef3fda3fdb8"
-    },
-    {
-      "id": "2026년 공부할 것",
-      "type": "note",
-      "url": "https://www.notion.so/3055249e7325801c861ccf36efe805e8"
     },
     {
       "id": "IR 온도센서 커버",
@@ -574,7 +569,7 @@
       "url": "https://www.notion.so/1785249e732580ffa717e6500e3a351b"
     },
     {
-      "id": "GTP와 Copilot의 AI 분류",
+      "id": "AI 관련 표현들, 어떻게 다를까?",
       "type": "note",
       "url": "https://www.notion.so/2f85249e7325807fb8abf552933d8666"
     },
@@ -1257,12 +1252,7 @@
     },
     {
       "source": "Study",
-      "target": "GTP와 Copilot의 AI 분류",
-      "type": "area-note"
-    },
-    {
-      "source": "Study",
-      "target": "2026년 공부할 것",
+      "target": "AI 관련 표현들, 어떻게 다를까?",
       "type": "area-note"
     },
     {
@@ -1272,7 +1262,7 @@
     },
     {
       "source": "Study",
-      "target": "ai 툴.. 코파일럿, 클로드,  chatgpt, 제미나이 비교",
+      "target": "ai 툴.. 코파일럿, 클로드,  chatgpt, 제미나이 비교 (기구 설계 관점)",
       "type": "area-note"
     },
     {
@@ -1297,7 +1287,7 @@
     },
     {
       "source": "Study",
-      "target": "🎨 추천 AI 이미지 생성 도구",
+      "target": "추천 AI 이미지 생성 도구",
       "type": "area-note"
     },
     {
@@ -1308,6 +1298,11 @@
     {
       "source": "Study",
       "target": "공부해야 할 것들",
+      "type": "area-note"
+    },
+    {
+      "source": "Study",
+      "target": "[Skill] revosketch-ppt",
       "type": "area-note"
     },
     {
@@ -1947,7 +1942,7 @@
     },
     {
       "source": "AI LLM",
-      "target": "GTP와 Copilot의 AI 분류",
+      "target": "AI 관련 표현들, 어떻게 다를까?",
       "type": "project-note"
     },
     {
@@ -1962,7 +1957,7 @@
     },
     {
       "source": "AI LLM",
-      "target": "🎨 추천 AI 이미지 생성 도구",
+      "target": "추천 AI 이미지 생성 도구",
       "type": "project-note"
     },
     {
@@ -1987,7 +1982,7 @@
     },
     {
       "source": "AI LLM",
-      "target": "ai 툴.. 코파일럿, 클로드,  chatgpt, 제미나이 비교",
+      "target": "ai 툴.. 코파일럿, 클로드,  chatgpt, 제미나이 비교 (기구 설계 관점)",
       "type": "project-note"
     },
     {
