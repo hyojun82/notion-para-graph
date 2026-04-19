@@ -39,7 +39,7 @@
     {
       "id": "인문학",
       "type": "resource",
-      "noteCount": 3,
+      "noteCount": 5,
       "url": "https://www.notion.so/31f5249e732580829c8bdc78718f438b"
     },
     {
@@ -1054,6 +1054,16 @@
       "url": "https://www.notion.so/1785249e732580f5b776d89ed915254a"
     },
     {
+      "id": "일 못하는 나르시시스트가 어려윤 진짜 이유 3가지",
+      "type": "note",
+      "url": "https://www.notion.so/3475249e7325807982fcf8606900bf7e"
+    },
+    {
+      "id": "리더십에 문제가 있는 리더의 가장 큰 특징",
+      "type": "note",
+      "url": "https://www.notion.so/3475249e73258002a07bead3664c490f"
+    },
+    {
       "id": "열심히 일하는데 인정 못 받는 이유",
       "type": "note",
       "url": "https://www.notion.so/3475249e73258097afbbf31b18a01261"
@@ -1433,6 +1443,16 @@
     {
       "source": "인문학",
       "target": "열심히 일하는데 인정 못 받는 이유",
+      "type": "area-note"
+    },
+    {
+      "source": "인문학",
+      "target": "리더십에 문제가 있는 리더의 가장 큰 특징",
+      "type": "area-note"
+    },
+    {
+      "source": "인문학",
+      "target": "일 못하는 나르시시스트가 어려윤 진짜 이유 3가지",
       "type": "area-note"
     },
     {
