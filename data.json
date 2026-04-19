@@ -39,7 +39,7 @@
     {
       "id": "인문학",
       "type": "resource",
-      "noteCount": 2,
+      "noteCount": 3,
       "url": "https://www.notion.so/31f5249e732580829c8bdc78718f438b"
     },
     {
@@ -1052,6 +1052,11 @@
       "id": "UV 프린터",
       "type": "note",
       "url": "https://www.notion.so/1785249e732580f5b776d89ed915254a"
+    },
+    {
+      "id": "열심히 일하는데 인정 못 받는 이유",
+      "type": "note",
+      "url": "https://www.notion.so/3475249e73258097afbbf31b18a01261"
     }
   ],
   "links": [
@@ -1423,6 +1428,11 @@
     {
       "source": "인문학",
       "target": "회사의 한해 목표가 애매모호할때?",
+      "type": "area-note"
+    },
+    {
+      "source": "인문학",
+      "target": "열심히 일하는데 인정 못 받는 이유",
       "type": "area-note"
     },
     {
