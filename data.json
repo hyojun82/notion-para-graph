@@ -39,7 +39,7 @@
     {
       "id": "인문학",
       "type": "resource",
-      "noteCount": 6,
+      "noteCount": 7,
       "url": "https://www.notion.so/31f5249e732580829c8bdc78718f438b"
     },
     {
@@ -1054,6 +1054,11 @@
       "url": "https://www.notion.so/1785249e732580f5b776d89ed915254a"
     },
     {
+      "id": "나르시시스트 vs 건강한 사람",
+      "type": "note",
+      "url": "https://www.notion.so/3475249e7325804a8dfcf0076d706d6a"
+    },
+    {
       "id": "회사 생활에 대한 현실 조언 20",
       "type": "note",
       "url": "https://www.notion.so/3475249e732580ddabe3cd8af5ec9315"
@@ -1468,6 +1473,11 @@
     {
       "source": "인문학",
       "target": "회사 생활에 대한 현실 조언 20",
+      "type": "area-note"
+    },
+    {
+      "source": "인문학",
+      "target": "나르시시스트 vs 건강한 사람",
       "type": "area-note"
     },
     {
