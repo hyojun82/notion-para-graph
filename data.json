@@ -39,7 +39,7 @@
     {
       "id": "인문학",
       "type": "resource",
-      "noteCount": 5,
+      "noteCount": 6,
       "url": "https://www.notion.so/31f5249e732580829c8bdc78718f438b"
     },
     {
@@ -136,7 +136,7 @@
       "id": "AI LLM",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 17,
+      "noteCount": 18,
       "url": "https://www.notion.so/2f85249e7325802bb5cbd31e7e5093ba"
     },
     {
@@ -1054,6 +1054,16 @@
       "url": "https://www.notion.so/1785249e732580f5b776d89ed915254a"
     },
     {
+      "id": "회사 생활에 대한 현실 조언 20",
+      "type": "note",
+      "url": "https://www.notion.so/3475249e732580ddabe3cd8af5ec9315"
+    },
+    {
+      "id": "사용 분야별 추천 AI",
+      "type": "note",
+      "url": "https://www.notion.so/3475249e7325801797adeade549be5b1"
+    },
+    {
       "id": "일 못하는 나르시시스트가 어려윤 진짜 이유 3가지",
       "type": "note",
       "url": "https://www.notion.so/3475249e7325807982fcf8606900bf7e"
@@ -1453,6 +1463,11 @@
     {
       "source": "인문학",
       "target": "일 못하는 나르시시스트가 어려윤 진짜 이유 3가지",
+      "type": "area-note"
+    },
+    {
+      "source": "인문학",
+      "target": "회사 생활에 대한 현실 조언 20",
       "type": "area-note"
     },
     {
@@ -2053,6 +2068,11 @@
     {
       "source": "AI LLM",
       "target": "공부해야 할 것들",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "사용 분야별 추천 AI",
       "type": "project-note"
     },
     {
