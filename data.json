@@ -136,7 +136,7 @@
       "id": "AI LLM",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 18,
+      "noteCount": 19,
       "url": "https://www.notion.so/2f85249e7325802bb5cbd31e7e5093ba"
     },
     {
@@ -1052,6 +1052,11 @@
       "id": "UV 프린터",
       "type": "note",
       "url": "https://www.notion.so/1785249e732580f5b776d89ed915254a"
+    },
+    {
+      "id": "korean-law-mcp",
+      "type": "note",
+      "url": "https://www.notion.so/3485249e732580b093d4f3e1e494fed4"
     },
     {
       "id": "나르시시스트 vs 건강한 사람",
@@ -2083,6 +2088,11 @@
     {
       "source": "AI LLM",
       "target": "사용 분야별 추천 AI",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "korean-law-mcp",
       "type": "project-note"
     },
     {
