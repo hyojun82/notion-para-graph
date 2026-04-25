@@ -39,7 +39,7 @@
     {
       "id": "인문학",
       "type": "resource",
-      "noteCount": 9,
+      "noteCount": 11,
       "url": "https://www.notion.so/31f5249e732580829c8bdc78718f438b"
     },
     {
@@ -1054,6 +1054,16 @@
       "url": "https://www.notion.so/1785249e732580f5b776d89ed915254a"
     },
     {
+      "id": "횡설수설 안하고 말 잘하는 법 6가지!",
+      "type": "note",
+      "url": "https://www.notion.so/34d5249e73258039b169fd7bd1a40555"
+    },
+    {
+      "id": "조직이 흔들릴때 기준을 먼",
+      "type": "note",
+      "url": "https://www.notion.so/34d5249e732580f5b737da79cc999b27"
+    },
+    {
       "id": "경 공 확 해 사",
       "type": "note",
       "url": "https://www.notion.so/34d5249e73258037b496cc9b84f219d6"
@@ -1513,6 +1523,16 @@
     {
       "source": "인문학",
       "target": "경 공 확 해 사",
+      "type": "area-note"
+    },
+    {
+      "source": "인문학",
+      "target": "조직이 흔들릴때 기준을 먼",
+      "type": "area-note"
+    },
+    {
+      "source": "인문학",
+      "target": "횡설수설 안하고 말 잘하는 법 6가지!",
       "type": "area-note"
     },
     {
