@@ -39,7 +39,7 @@
     {
       "id": "인문학",
       "type": "resource",
-      "noteCount": 7,
+      "noteCount": 9,
       "url": "https://www.notion.so/31f5249e732580829c8bdc78718f438b"
     },
     {
@@ -1054,6 +1054,16 @@
       "url": "https://www.notion.so/1785249e732580f5b776d89ed915254a"
     },
     {
+      "id": "경 공 확 해 사",
+      "type": "note",
+      "url": "https://www.notion.so/34d5249e73258037b496cc9b84f219d6"
+    },
+    {
+      "id": "조직 침묵",
+      "type": "note",
+      "url": "https://www.notion.so/34d5249e732580759b22e281c976539e"
+    },
+    {
       "id": "커팅기 세팅",
       "type": "note",
       "url": "https://www.notion.so/3495249e732580a682a7eac4e734703d"
@@ -1493,6 +1503,16 @@
     {
       "source": "인문학",
       "target": "나르시시스트 vs 건강한 사람",
+      "type": "area-note"
+    },
+    {
+      "source": "인문학",
+      "target": "조직 침묵",
+      "type": "area-note"
+    },
+    {
+      "source": "인문학",
+      "target": "경 공 확 해 사",
       "type": "area-note"
     },
     {
