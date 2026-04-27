@@ -136,7 +136,7 @@
       "id": "AI LLM",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 19,
+      "noteCount": 18,
       "url": "https://www.notion.so/2f85249e7325802bb5cbd31e7e5093ba"
     },
     {
@@ -312,11 +312,6 @@
       "id": "치매 환우 가족을 위한 완전 가이드",
       "type": "note",
       "url": "https://www.notion.so/3245249e732580708d0bd6d5b3d65035"
-    },
-    {
-      "id": "rh",
-      "type": "note",
-      "url": "https://www.notion.so/3235249e73258082ac01e48fc002e497"
     },
     {
       "id": "OneDrive 폴더 관리를 위한 분류",
@@ -2093,11 +2088,6 @@
     {
       "source": "AI LLM",
       "target": "ai 툴.. 코파일럿, 클로드,  chatgpt, 제미나이 비교 (기구 설계 관점)",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "rh",
       "type": "project-note"
     },
     {
