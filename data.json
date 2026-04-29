@@ -75,7 +75,7 @@
     {
       "id": "업무프로세스/SOP",
       "type": "resource",
-      "noteCount": 15,
+      "noteCount": 16,
       "url": "https://www.notion.so/1785249e73258085ae51ef17eeb05cd3"
     },
     {
@@ -1049,6 +1049,11 @@
       "url": "https://www.notion.so/1785249e732580f5b776d89ed915254a"
     },
     {
+      "id": "NAS 데이터 관리 운영 규정",
+      "type": "note",
+      "url": "https://www.notion.so/3515249e732580c290eaf9c0ab3c6a66"
+    },
+    {
       "id": "기구물 설계 검토 시 필요자료",
       "type": "note",
       "url": "https://www.notion.so/3515249e732580fb9be5dabdb9b879f6"
@@ -1798,6 +1803,11 @@
     {
       "source": "업무프로세스/SOP",
       "target": "e-mail 설정",
+      "type": "area-note"
+    },
+    {
+      "source": "업무프로세스/SOP",
+      "target": "NAS 데이터 관리 운영 규정",
       "type": "area-note"
     },
     {
