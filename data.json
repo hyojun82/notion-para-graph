@@ -21,7 +21,7 @@
     {
       "id": "연구노트",
       "type": "resource",
-      "noteCount": 13,
+      "noteCount": 25,
       "url": "https://www.notion.so/1655249e732581df81dddae1a1d55dd9"
     },
     {
@@ -103,6 +103,13 @@
       "status": "진행 중",
       "noteCount": 23,
       "url": "https://www.notion.so/1655249e732581db91b3ffe3ec469df3"
+    },
+    {
+      "id": "새로운 프로젝트",
+      "type": "project",
+      "status": "진행 중",
+      "noteCount": 0,
+      "url": "https://www.notion.so/3525249e732580acab49d535949289a7"
     },
     {
       "id": "Notion",
@@ -1049,6 +1056,96 @@
       "url": "https://www.notion.so/1785249e732580f5b776d89ed915254a"
     },
     {
+      "id": "easyQuark 렌더링 이미지",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e73258086b8d5f2a8b508f1cd"
+    },
+    {
+      "id": "[연구노트] DISK 라벨 부착 가이드",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e732580739534f119b06b00c2"
+    },
+    {
+      "id": "[연구노트] Disk 유로",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e732580e6b803c683802f74a5"
+    },
+    {
+      "id": "[연구노트] 광학 세팅 지그 제작",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e732580a8800dfe76e604a014"
+    },
+    {
+      "id": "개발 이슈 회의록 (기구)",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e732580c482a8eac30b66bc14"
+    },
+    {
+      "id": "[연구노트] 기포 제거 방법",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e7325802f8183f1ffa969d8f2"
+    },
+    {
+      "id": "[연구노트] Disk Well depth & volume",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e732580748db2c3e363d8ae90"
+    },
+    {
+      "id": "[연구노트] HotTop OnBoard",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e732580859dcfc950a7521c43"
+    },
+    {
+      "id": "easyQuark 특허 등록 관련 요청 자료",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e732580e0a161c7dc0cba0f4a"
+    },
+    {
+      "id": "[연구노트] Mabuchi Motor (RF-400CA-12265 D/V5.9)",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e7325800bb367ebf570645e1b"
+    },
+    {
+      "id": "[연구노트] 스펀지 선정",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e732580c1869ae6276e341258"
+    },
+    {
+      "id": "[연구노트] 초소형 슬립링",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e732580f3981ef3b90ab8b20e"
+    },
+    {
+      "id": "[연구노트] Slip Ring Pin",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e73258091a679d6d52712512d"
+    },
+    {
+      "id": "[연구노트] easyQaurk_top_v0.3 PCB 홀위치 수정",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e732580ec8bb0c166ae2e1274"
+    },
+    {
+      "id": "[연구노트] Bot Heater PCB 커넥터",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e7325803fb7c5e5b4a1b82691"
+    },
+    {
+      "id": "[연구노트 ]Flat Head LED",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e7325806bb003f70c9757ba17"
+    },
+    {
+      "id": "레이저 마킹",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e732580ecaaf7e993cff6aeab"
+    },
+    {
+      "id": "[연구노트] isoQuark POCT 디자인",
+      "type": "note",
+      "url": "https://www.notion.so/3525249e732580cfaa63f38fb6cbf7da"
+    },
+    {
       "id": "NAS 데이터 관리 운영 규정",
       "type": "note",
       "url": "https://www.notion.so/3515249e732580c290eaf9c0ab3c6a66"
@@ -1468,6 +1565,66 @@
     {
       "source": "연구노트",
       "target": "RPM 지그",
+      "type": "area-note"
+    },
+    {
+      "source": "연구노트",
+      "target": "[연구노트] isoQuark POCT 디자인",
+      "type": "area-note"
+    },
+    {
+      "source": "연구노트",
+      "target": "레이저 마킹",
+      "type": "area-note"
+    },
+    {
+      "source": "연구노트",
+      "target": "[연구노트 ]Flat Head LED",
+      "type": "area-note"
+    },
+    {
+      "source": "연구노트",
+      "target": "[연구노트] Bot Heater PCB 커넥터",
+      "type": "area-note"
+    },
+    {
+      "source": "연구노트",
+      "target": "[연구노트] Slip Ring Pin",
+      "type": "area-note"
+    },
+    {
+      "source": "연구노트",
+      "target": "[연구노트] 초소형 슬립링",
+      "type": "area-note"
+    },
+    {
+      "source": "연구노트",
+      "target": "[연구노트] 스펀지 선정",
+      "type": "area-note"
+    },
+    {
+      "source": "연구노트",
+      "target": "[연구노트] Mabuchi Motor (RF-400CA-12265 D/V5.9)",
+      "type": "area-note"
+    },
+    {
+      "source": "연구노트",
+      "target": "easyQuark 특허 등록 관련 요청 자료",
+      "type": "area-note"
+    },
+    {
+      "source": "연구노트",
+      "target": "[연구노트] HotTop OnBoard",
+      "type": "area-note"
+    },
+    {
+      "source": "연구노트",
+      "target": "개발 이슈 회의록 (기구)",
+      "type": "area-note"
+    },
+    {
+      "source": "연구노트",
+      "target": "[연구노트] Disk 유로",
       "type": "area-note"
     },
     {
@@ -1984,6 +2141,11 @@
       "source": "digiQuark",
       "target": "digiQuark 생산에 필요한 지그",
       "type": "project-note"
+    },
+    {
+      "source": "연구노트",
+      "target": "새로운 프로젝트",
+      "type": "area-project"
     },
     {
       "source": "Notion",
