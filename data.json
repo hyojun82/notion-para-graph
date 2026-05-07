@@ -94,7 +94,7 @@
       "id": "digiQuark",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 23,
+      "noteCount": 24,
       "url": "https://www.notion.so/1655249e732581db91b3ffe3ec469df3"
     },
     {
@@ -1219,6 +1219,11 @@
       "id": "[연구노트] 초소형 슬립링",
       "type": "note",
       "url": "https://www.notion.so/3525249e732580f3981ef3b90ab8b20e"
+    },
+    {
+      "id": "HotTop heater 검토",
+      "type": "note",
+      "url": "https://www.notion.so/3595249e732580b4bef3d5083269de43"
     }
   ],
   "links": [
@@ -2130,6 +2135,11 @@
     {
       "source": "digiQuark",
       "target": "digiQuark 생산에 필요한 지그",
+      "type": "project-note"
+    },
+    {
+      "source": "digiQuark",
+      "target": "HotTop heater 검토",
       "type": "project-note"
     },
     {
