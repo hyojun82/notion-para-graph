@@ -57,7 +57,7 @@
     {
       "id": "디자인",
       "type": "resource",
-      "noteCount": 5,
+      "noteCount": 6,
       "url": "https://www.notion.so/1785249e7325804ba344cadbd8282e82"
     },
     {
@@ -159,6 +159,11 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "디자인 관련 사이트",
+      "type": "note",
+      "url": "https://www.notion.so/35d5249e732580818f29db2f253b13d6"
     },
     {
       "id": "Door lock",
@@ -1595,6 +1600,11 @@
     {
       "source": "디자인",
       "target": "Quick Guidance",
+      "type": "area-note"
+    },
+    {
+      "source": "디자인",
+      "target": "디자인 관련 사이트",
       "type": "area-note"
     },
     {
