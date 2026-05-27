@@ -121,8 +121,8 @@
     {
       "id": "에멀전 오일 자동 충전",
       "type": "project",
-      "status": "진행 중",
-      "noteCount": 6,
+      "status": "완료",
+      "noteCount": 7,
       "url": "https://www.notion.so/2f85249e732580f8857be22f2369732f"
     },
     {
@@ -159,6 +159,11 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "(제목 없음)",
+      "type": "note",
+      "url": "https://www.notion.so/36d5249e73258057b21dfbe1e73d9e59"
     },
     {
       "id": "2026년 상반기 관리감독자 안전보건교육",
@@ -2120,6 +2125,11 @@
     {
       "source": "에멀전 오일 자동 충전",
       "target": "CSY-M90 세팅 방법 (에멀전 오일 3ml, 5ml 튜브)_수정",
+      "type": "project-note"
+    },
+    {
+      "source": "에멀전 오일 자동 충전",
+      "target": "(제목 없음)",
       "type": "project-note"
     },
     {
