@@ -3,7 +3,7 @@
     {
       "id": "블로그",
       "type": "resource",
-      "noteCount": 2,
+      "noteCount": 3,
       "url": "https://www.notion.so/3245249e732580c2a76bcb234c1a6eec"
     },
     {
@@ -159,6 +159,11 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "블로그 자동화",
+      "type": "note",
+      "url": "https://www.notion.so/3755249e732580838596d29f61af96c1"
     },
     {
       "id": "Door  hinge 구조  개선 검토",
@@ -1275,6 +1280,11 @@
     {
       "source": "블로그",
       "target": "3D 프린터기 에러 (K1Max)",
+      "type": "area-note"
+    },
+    {
+      "source": "블로그",
+      "target": "블로그 자동화",
       "type": "area-note"
     },
     {
