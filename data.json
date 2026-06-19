@@ -91,6 +91,13 @@
       "url": "https://www.notion.so/1655249e732581df81dddae1a1d55dd9"
     },
     {
+      "id": "easyDisk",
+      "type": "project",
+      "status": "진행 중",
+      "noteCount": 2,
+      "url": "https://www.notion.so/3845249e732580458b52c18a45c756b7"
+    },
+    {
       "id": "새로운 프로젝트",
       "type": "project",
       "status": "진행 중",
@@ -159,6 +166,11 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "Disk 초음파 융착(ultrasonic welding) 검토",
+      "type": "note",
+      "url": "https://www.notion.so/3845249e7325808aa85dc59676ae5080"
     },
     {
       "id": "블로그 자동화",
@@ -276,7 +288,7 @@
       "url": "https://www.notion.so/3525249e73258091a679d6d52712512d"
     },
     {
-      "id": "[연구노트] easyQaurk_top_v0.3 PCB 홀위치 수정",
+      "id": "[연구노트] easyQuark_top_v0.3 PCB 홀위치 수정",
       "type": "note",
       "url": "https://www.notion.so/3525249e732580ec8bb0c166ae2e1274"
     },
@@ -2076,6 +2088,21 @@
       "source": "연구노트",
       "target": "[연구노트] Disk 유로",
       "type": "area-note"
+    },
+    {
+      "source": "easyDisk",
+      "target": "Disk 초음파 융착(ultrasonic welding) 검토",
+      "type": "project-note"
+    },
+    {
+      "source": "easyDisk",
+      "target": "RPA + CRISPR 2-Step 카트리지 설계 검토 (원심력 방식)",
+      "type": "project-note"
+    },
+    {
+      "source": "기구설계",
+      "target": "easyDisk",
+      "type": "area-project"
     },
     {
       "source": "연구노트",
