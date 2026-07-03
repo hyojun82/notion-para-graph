@@ -98,10 +98,10 @@
       "url": "https://www.notion.so/3845249e732580458b52c18a45c756b7"
     },
     {
-      "id": "새로운 프로젝트",
+      "id": "프로그램 만들기",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 0,
+      "noteCount": 1,
       "url": "https://www.notion.so/3525249e732580acab49d535949289a7"
     },
     {
@@ -166,6 +166,11 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "계획",
+      "type": "note",
+      "url": "https://www.notion.so/3925249e732580f487f0e0979571d49f"
     },
     {
       "id": "digiQuark",
@@ -2125,8 +2130,13 @@
       "type": "area-project"
     },
     {
+      "source": "프로그램 만들기",
+      "target": "계획",
+      "type": "project-note"
+    },
+    {
       "source": "연구노트",
-      "target": "새로운 프로젝트",
+      "target": "프로그램 만들기",
       "type": "area-project"
     },
     {
