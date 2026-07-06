@@ -27,7 +27,7 @@
     {
       "id": "기구팀",
       "type": "area",
-      "noteCount": 5,
+      "noteCount": 6,
       "url": "https://www.notion.so/19d5249e732580789fbdfa9eabeeab7f"
     },
     {
@@ -218,7 +218,7 @@
       "url": "https://www.notion.so/3725249e7325809f957dcef698311d04"
     },
     {
-      "id": "(제목 없음)",
+      "id": "프로젝트 회고",
       "type": "note",
       "url": "https://www.notion.so/36d5249e73258057b21dfbe1e73d9e59"
     },
@@ -1420,6 +1420,11 @@
       "type": "area-note"
     },
     {
+      "source": "기구팀",
+      "target": "프로젝트 회고",
+      "type": "area-note"
+    },
+    {
       "source": "생산관리",
       "target": "히팅 블럭 NTC 온도 센서 실링(방수) 처리 검토",
       "type": "area-note"
@@ -2211,7 +2216,7 @@
     },
     {
       "source": "에멀전 오일 자동 충전",
-      "target": "(제목 없음)",
+      "target": "프로젝트 회고",
       "type": "project-note"
     },
     {
