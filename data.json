@@ -94,7 +94,7 @@
       "id": "easyDisk",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 2,
+      "noteCount": 3,
       "url": "https://www.notion.so/3845249e732580458b52c18a45c756b7"
     },
     {
@@ -196,6 +196,11 @@
       "id": "Disk 초음파 융착(ultrasonic welding) 검토",
       "type": "note",
       "url": "https://www.notion.so/3845249e7325808aa85dc59676ae5080"
+    },
+    {
+      "id": "easyDisk 개발 계획 — easyQuark 8-well",
+      "type": "note",
+      "url": "https://www.notion.so/3825249e7325814386a5d9deda5d6f41"
     },
     {
       "id": "블로그 자동화",
@@ -2127,6 +2132,11 @@
     {
       "source": "easyDisk",
       "target": "RPA + CRISPR 2-Step 카트리지 설계 검토 (원심력 방식)",
+      "type": "project-note"
+    },
+    {
+      "source": "easyDisk",
+      "target": "easyDisk 개발 계획 — easyQuark 8-well",
       "type": "project-note"
     },
     {
