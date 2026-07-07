@@ -203,6 +203,11 @@
       "url": "https://www.notion.so/3825249e7325814386a5d9deda5d6f41"
     },
     {
+      "id": "Synology Nas에 Git Server와 Gitea 설치 | AI&GameDev",
+      "type": "note",
+      "url": "https://www.notion.so/37a5249e73258192bdececdd1afe420b"
+    },
+    {
       "id": "블로그 자동화",
       "type": "note",
       "url": "https://www.notion.so/3755249e732580838596d29f61af96c1"
@@ -528,6 +533,11 @@
       "url": "https://www.notion.so/3255249e7325809fa1b8d7f483c037bb"
     },
     {
+      "id": "클로드 코드와 노트북LM 결합을 통한 혁신적인.. : 네이버블로그",
+      "type": "note",
+      "url": "https://www.notion.so/3255249e73258121a426dc1b97d86c0b"
+    },
+    {
       "id": "치매 환우 가족을 위한 완전 가이드",
       "type": "note",
       "url": "https://www.notion.so/3245249e732580708d0bd6d5b3d65035"
@@ -538,7 +548,7 @@
       "url": "https://www.notion.so/2a75249e73258346ad1f818e5fdcb77b"
     },
     {
-      "id": "공부해야 할 것들",
+      "id": "AI LLM Home",
       "type": "note",
       "url": "https://www.notion.so/3235249e732580f9a628dc59f3d21a09"
     },
@@ -1991,7 +2001,7 @@
     },
     {
       "source": "Study",
-      "target": "공부해야 할 것들",
+      "target": "AI LLM Home",
       "type": "area-note"
     },
     {
@@ -2311,7 +2321,7 @@
     },
     {
       "source": "AI LLM",
-      "target": "공부해야 할 것들",
+      "target": "AI LLM Home",
       "type": "project-note"
     },
     {
