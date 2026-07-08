@@ -94,7 +94,7 @@
       "id": "easyDisk",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 3,
+      "noteCount": 4,
       "url": "https://www.notion.so/3845249e732580458b52c18a45c756b7"
     },
     {
@@ -168,9 +168,19 @@
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
     },
     {
+      "id": "실링 라벨 발주 사양서 (도넛형/8분할형 2종)",
+      "type": "note",
+      "url": "https://www.notion.so/3965249e7325817380d0f1f03bbc41cf"
+    },
+    {
       "id": "1",
       "type": "note",
       "url": "https://www.notion.so/3965249e732580b9b8dee2b8a5b62d0b"
+    },
+    {
+      "id": "라벨 제작 공정 가이드 (실링·다이컷 라벨 노하우)",
+      "type": "note",
+      "url": "https://www.notion.so/3955249e732581afb3e3c25df2a0ed41"
     },
     {
       "id": "계획",
@@ -191,6 +201,16 @@
       "id": "keyshot 랜더링 파일 리스트",
       "type": "note",
       "url": "https://www.notion.so/38e5249e73258057aad1f6193b828f18"
+    },
+    {
+      "id": "진공포장 비드 파손율 DOE 테스트 설계",
+      "type": "note",
+      "url": "https://www.notion.so/38b5249e73258159b2c2f7810dd55113"
+    },
+    {
+      "id": "동결건조 비드 디스크 포장 방법 검토 (진공포장 위험성 및 실리카겔 선정)",
+      "type": "note",
+      "url": "https://www.notion.so/38b5249e7325817cb2a2c0c30b0eb592"
     },
     {
       "id": "RPM, 온도센서 인식 영역",
@@ -2152,6 +2172,11 @@
     {
       "source": "easyDisk",
       "target": "easyDisk 개발 계획 — easyQuark 8-well",
+      "type": "project-note"
+    },
+    {
+      "source": "easyDisk",
+      "target": "동결건조 비드 디스크 포장 방법 검토 (진공포장 위험성 및 실리카겔 선정)",
       "type": "project-note"
     },
     {
