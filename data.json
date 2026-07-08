@@ -108,7 +108,7 @@
       "id": "Notion",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 3,
+      "noteCount": 2,
       "url": "https://www.notion.so/3415249e73258030b856c1be974455a3"
     },
     {
@@ -166,6 +166,11 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "Google’s Full Stack AI Ecosystem",
+      "type": "note",
+      "url": "https://www.notion.so/3975249e73258020af31f6a819de03a8"
     },
     {
       "id": "실링 라벨 발주 사양서 (도넛형/8분할형 2종)",
@@ -468,11 +473,6 @@
       "url": "https://www.notion.so/3415249e7325808ca78bfbc41af729ca"
     },
     {
-      "id": "노션에서 업무와 개인 일정 관리 방법",
-      "type": "note",
-      "url": "https://www.notion.so/3415249e73258011a413cf13261d7309"
-    },
-    {
       "id": "2026 워크샵 발표 자료",
       "type": "note",
       "url": "https://www.notion.so/3415249e732580a79e1bfd4bce571331"
@@ -638,7 +638,7 @@
       "url": "https://www.notion.so/31e5249e732580a7a302caa4decd2cfa"
     },
     {
-      "id": "추천 AI 이미지 생성 도구",
+      "id": "(작업 표준서용) 부품 일러스트 이미지 생성 도구",
       "type": "note",
       "url": "https://www.notion.so/31e5249e73258086ac02fef216dd86d2"
     },
@@ -2016,7 +2016,7 @@
     },
     {
       "source": "Study",
-      "target": "추천 AI 이미지 생성 도구",
+      "target": "(작업 표준서용) 부품 일러스트 이미지 생성 도구",
       "type": "area-note"
     },
     {
@@ -2196,11 +2196,6 @@
     },
     {
       "source": "Notion",
-      "target": "노션에서 업무와 개인 일정 관리 방법",
-      "type": "project-note"
-    },
-    {
-      "source": "Notion",
       "target": "Notion",
       "type": "project-note"
     },
@@ -2291,7 +2286,7 @@
     },
     {
       "source": "AI LLM",
-      "target": "추천 AI 이미지 생성 도구",
+      "target": "(작업 표준서용) 부품 일러스트 이미지 생성 도구",
       "type": "project-note"
     },
     {
