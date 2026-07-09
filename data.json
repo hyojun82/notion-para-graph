@@ -1,6 +1,12 @@
 {
   "nodes": [
     {
+      "id": "새로운 영역 · 자원",
+      "type": "resource",
+      "noteCount": 0,
+      "url": "https://www.notion.so/3985249e732580f18842d66b5e1f9546"
+    },
+    {
       "id": "블로그",
       "type": "resource",
       "noteCount": 3,
@@ -91,6 +97,13 @@
       "url": "https://www.notion.so/1655249e732581df81dddae1a1d55dd9"
     },
     {
+      "id": "도면",
+      "type": "project",
+      "status": "진행 중",
+      "noteCount": 6,
+      "url": "https://www.notion.so/3985249e732580c2bd2fdae0754c18fa"
+    },
+    {
       "id": "easyDisk",
       "type": "project",
       "status": "진행 중",
@@ -166,6 +179,11 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "(제목 없음)",
+      "type": "note",
+      "url": "https://www.notion.so/3985249e732580f2ba54c2a91f2bb4a4"
     },
     {
       "id": "Google’s Full Stack AI Ecosystem",
@@ -2158,6 +2176,41 @@
       "source": "연구노트",
       "target": "[연구노트] Disk 유로",
       "type": "area-note"
+    },
+    {
+      "source": "도면",
+      "target": "도면",
+      "type": "project-note"
+    },
+    {
+      "source": "도면",
+      "target": "도면 규격",
+      "type": "project-note"
+    },
+    {
+      "source": "도면",
+      "target": "도면 스타일 및 표준 편집기",
+      "type": "project-note"
+    },
+    {
+      "source": "도면",
+      "target": "도면 재질표기 약어",
+      "type": "project-note"
+    },
+    {
+      "source": "도면",
+      "target": "도면 탬플릿 변경",
+      "type": "project-note"
+    },
+    {
+      "source": "도면",
+      "target": "인벤터 도면->캐드로 변환시 축척 문제",
+      "type": "project-note"
+    },
+    {
+      "source": "기구설계",
+      "target": "도면",
+      "type": "area-project"
     },
     {
       "source": "easyDisk",
