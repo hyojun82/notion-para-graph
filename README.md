@@ -81,7 +81,7 @@ notion-para-graph/
 
 ## 시작하기 전에 — Notion 템플릿
 
-이 도구는 특정 PARA 구조를 기반으로 동작합니다. 아래 Notion 템플릿을 본인 워크스페이스에 복제한 후 진행하세요.
+이 도구는 **닥터가드너님의 PARA 정리법 메모앱**의 PARA 구조를 기반으로 동작합니다. 아래 Notion 템플릿을 본인 워크스페이스에 복제한 후 진행하세요.
 
 > **Notion 템플릿**: [PARA 611 — Notion 마켓플레이스](https://www.notion.com/ko/templates/para-611)
 
