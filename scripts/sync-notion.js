@@ -2,7 +2,8 @@
 // Notion → data.json 동기화 스크립트
 // GitHub Action에서 NOTION_API_KEY 환경변수로 실행
 
-const { writeFileSync } = require('fs');
+const { writeFileSync, readFileSync } = require('fs');
+const path = require('path');
 
 const NOTION_API_KEY = process.env.NOTION_API_KEY;
 if (!NOTION_API_KEY) {
@@ -17,12 +18,9 @@ const HEADERS = {
   'Content-Type': 'application/json',
 };
 
-// 데이터베이스 ID
-const DB = {
-  areaResource: '1655249e-7325-814b-a5b1-dab828ecc832',
-  project:      '1655249e-7325-8155-8bb4-edfb3c18c9ea',
-  note:         '1655249e-7325-8168-acf1-ca00ab11696b',
-};
+// 데이터베이스 ID (config.json에서 읽기)
+const config = JSON.parse(readFileSync(path.join(__dirname, '..', 'config.json'), 'utf-8'));
+const DB = config.databases;
 
 // 데이터베이스 전체 페이지 조회 (페이지네이션 자동 처리)
 async function queryAll(databaseId) {

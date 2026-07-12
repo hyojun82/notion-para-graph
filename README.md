@@ -79,41 +79,60 @@ notion-para-graph/
 
 ---
 
+## 시작하기 전에 — Notion 템플릿
+
+이 도구는 특정 PARA 구조를 기반으로 동작합니다. 아래 Notion 템플릿을 본인 워크스페이스에 복제한 후 진행하세요.
+
+> **Notion 템플릿**: _(링크 추가 예정)_
+
+템플릿에는 아래 3개 DB와 속성이 포함되어 있어야 합니다:
+
+| DB | 필수 속성 |
+|----|----------|
+| 영역·자원 | `이름` (제목), `상태` (영역 / 자원 / 아카이브), `노트` (관계) |
+| 프로젝트 | `이름` (제목), `상태`, `노트` (관계), `영역 · 자원` (관계) |
+| 노트 | `이름` (제목), `영역 · 자원` (관계), `프로젝트` (관계) |
+
+---
+
 ## 설정 방법
 
-### 1. Notion Integration 생성
+### 1. 이 레포 Fork
+
+우측 상단 **Fork** 버튼으로 본인 GitHub 계정에 복제합니다.
+
+### 2. Notion Integration 생성
 
 [https://www.notion.so/my-integrations](https://www.notion.so/my-integrations) 에서 Internal Integration을 생성하고 API Key(`ntn_...`)를 복사합니다.
 
-### 2. Notion DB 연결
+### 3. Notion DB 연결
 
-아래 3개 데이터베이스 각각에서 `···` → **연결(Connections)** → Integration 추가:
-- 영역·자원 DB
-- 프로젝트 DB
-- 노트 DB
+위 3개 데이터베이스 각각에서 `···` → **연결(Connections)** → Integration 추가.
 
-### 3. DB ID 설정
+### 4. DB ID 설정
 
-`scripts/sync-notion.js` 내 DB ID를 실제 Notion DB URL의 ID로 교체합니다.
+`config.json`의 값을 본인 Notion DB ID로 교체합니다.
 
-```js
-const DB = {
-  areaResource: 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
-  project:      'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
-  note:         'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
-};
+```json
+{
+  "databases": {
+    "areaResource": "여기에_영역자원_DB_ID",
+    "project":      "여기에_프로젝트_DB_ID",
+    "note":         "여기에_노트_DB_ID"
+  }
+}
 ```
 
-> Notion DB URL 예시: `notion.so/workspace/1655249e...?v=...` → URL 중 32자리가 DB ID
+> DB ID 확인: Notion DB 페이지 URL에서 `notion.so/workspace/`**`32자리`**`?v=...` 부분
 
-### 4. GitHub Secret 설정
+### 5. GitHub Secret 설정
 
 GitHub 레포 → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
 
 - Name: `NOTION_API_KEY`
 - Value: Notion Integration API Key
 
-### 5. GitHub Pages 활성화
+### 6. GitHub Pages 활성화
 
 GitHub 레포 → **Settings** → **Pages** → Source: `main` 브랜치 `/root` → **Save**
 
