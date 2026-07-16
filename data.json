@@ -149,7 +149,7 @@
       "id": "AI LLM",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 18,
+      "noteCount": 19,
       "url": "https://www.notion.so/2f85249e7325802bb5cbd31e7e5093ba"
     },
     {
@@ -179,6 +179,11 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "세컨드 브레인",
+      "type": "note",
+      "url": "https://www.notion.so/39f5249e732580d2bc0fc1b394244bb4"
     },
     {
       "id": "(제목 없음)",
@@ -2415,6 +2420,11 @@
     {
       "source": "AI LLM",
       "target": "korean-law-mcp",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "세컨드 브레인",
       "type": "project-note"
     },
     {
