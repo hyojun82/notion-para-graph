@@ -100,7 +100,7 @@
       "id": "Claude",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 0,
+      "noteCount": 3,
       "url": "https://www.notion.so/3a25249e73258078b943fb30d22d3dbb"
     },
     {
@@ -156,7 +156,7 @@
       "id": "AI LLM",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 20,
+      "noteCount": 19,
       "url": "https://www.notion.so/2f85249e7325802bb5cbd31e7e5093ba"
     },
     {
@@ -201,6 +201,11 @@
       "id": "[공유용] 실링 라벨 발주 사양서 (도넛형/8분할형 2종)",
       "type": "note",
       "url": "https://www.notion.so/54c5249e7325835aa9bd01f7528f3a83"
+    },
+    {
+      "id": "[원본]Claude Code + NotebookLM: The Zero-Token Research Pipeline",
+      "type": "note",
+      "url": "https://www.notion.so/3975249e7325805ab094cbb5b463816d"
     },
     {
       "id": "Google’s Full Stack AI Ecosystem",
@@ -496,11 +501,6 @@
       "id": "Notion",
       "type": "note",
       "url": "https://www.notion.so/3425249e732580ba9128dd635d64da82"
-    },
-    {
-      "id": "클로드 데스크탑, 코워크, 코드의 설정 파일 저장위치",
-      "type": "note",
-      "url": "https://www.notion.so/3425249e73258057af22d9d243d2213d"
     },
     {
       "id": "세로형 보고서 PPT (임원보고형) - PPTX 만들기",
@@ -2200,6 +2200,21 @@
       "type": "area-note"
     },
     {
+      "source": "Claude",
+      "target": "[Skill] revosketch-ppt",
+      "type": "project-note"
+    },
+    {
+      "source": "Claude",
+      "target": "세로형 보고서 PPT (임원보고형) - PPTX 만들기",
+      "type": "project-note"
+    },
+    {
+      "source": "Claude",
+      "target": "Git Hub 수정 방법",
+      "type": "project-note"
+    },
+    {
       "source": "Study",
       "target": "Claude",
       "type": "area-project"
@@ -2417,11 +2432,6 @@
     {
       "source": "AI LLM",
       "target": "세로형 보고서 PPT (임원보고형) - PPTX 만들기",
-      "type": "project-note"
-    },
-    {
-      "source": "AI LLM",
-      "target": "클로드 데스크탑, 코워크, 코드의 설정 파일 저장위치",
       "type": "project-note"
     },
     {
