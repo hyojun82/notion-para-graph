@@ -97,6 +97,13 @@
       "url": "https://www.notion.so/1655249e732581df81dddae1a1d55dd9"
     },
     {
+      "id": "Claude",
+      "type": "project",
+      "status": "진행 중",
+      "noteCount": 0,
+      "url": "https://www.notion.so/3a25249e73258078b943fb30d22d3dbb"
+    },
+    {
       "id": "도면",
       "type": "project",
       "status": "진행 중",
@@ -149,7 +156,7 @@
       "id": "AI LLM",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 19,
+      "noteCount": 20,
       "url": "https://www.notion.so/2f85249e7325802bb5cbd31e7e5093ba"
     },
     {
@@ -214,6 +221,11 @@
       "id": "라벨 제작 공정 가이드 (실링·다이컷 라벨 노하우)",
       "type": "note",
       "url": "https://www.notion.so/3955249e732581afb3e3c25df2a0ed41"
+    },
+    {
+      "id": "산업이슈브리프 스킬 v5.1 재편 회고 (2026-07-05)",
+      "type": "note",
+      "url": "https://www.notion.so/3945249e7325817c9a0fcfe28ee0c543"
     },
     {
       "id": "계획",
@@ -2188,6 +2200,11 @@
       "type": "area-note"
     },
     {
+      "source": "Study",
+      "target": "Claude",
+      "type": "area-project"
+    },
+    {
       "source": "도면",
       "target": "도면",
       "type": "project-note"
@@ -2425,6 +2442,11 @@
     {
       "source": "AI LLM",
       "target": "세컨드 브레인",
+      "type": "project-note"
+    },
+    {
+      "source": "AI LLM",
+      "target": "산업이슈브리프 스킬 v5.1 재편 회고 (2026-07-05)",
       "type": "project-note"
     },
     {
