@@ -114,7 +114,7 @@
       "id": "easyDisk",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 4,
+      "noteCount": 5,
       "url": "https://www.notion.so/3845249e732580458b52c18a45c756b7"
     },
     {
@@ -193,11 +193,6 @@
       "url": "https://www.notion.so/39f5249e732580d2bc0fc1b394244bb4"
     },
     {
-      "id": "(제목 없음)",
-      "type": "note",
-      "url": "https://www.notion.so/3985249e732580f2ba54c2a91f2bb4a4"
-    },
-    {
       "id": "[공유용] 실링 라벨 발주 사양서 (도넛형/8분할형 2종)",
       "type": "note",
       "url": "https://www.notion.so/54c5249e7325835aa9bd01f7528f3a83"
@@ -238,7 +233,7 @@
       "url": "https://www.notion.so/3925249e732580f487f0e0979571d49f"
     },
     {
-      "id": "digiQuark",
+      "id": "digiQuark 동작 설명",
       "type": "note",
       "url": "https://www.notion.so/3915249e732580669d1ef92e9a1a1ba6"
     },
@@ -311,6 +306,11 @@
       "id": "2026년 상반기 관리감독자 안전보건교육",
       "type": "note",
       "url": "https://www.notion.so/36a5249e7325806db210d8a0176dc92d"
+    },
+    {
+      "id": "BGS 후방억제형 포토센서란?",
+      "type": "note",
+      "url": "https://www.notion.so/3615249e73258078971fdbb92937ccb4"
     },
     {
       "id": "Disk 장착 유무 확인 방법.",
@@ -2272,6 +2272,11 @@
     {
       "source": "easyDisk",
       "target": "동결건조 비드 디스크 포장 방법 검토 (진공포장 위험성 및 실리카겔 선정)",
+      "type": "project-note"
+    },
+    {
+      "source": "easyDisk",
+      "target": "[연구노트] 기포 제거 방법",
       "type": "project-note"
     },
     {
