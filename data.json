@@ -114,7 +114,7 @@
       "id": "easyDisk",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 5,
+      "noteCount": 6,
       "url": "https://www.notion.so/3845249e732580458b52c18a45c756b7"
     },
     {
@@ -186,6 +186,11 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "easyDisk 4-well (풀무원) 제작 공정",
+      "type": "note",
+      "url": "https://www.notion.so/3a55249e73258011aaa6e4cb250ac944"
     },
     {
       "id": "https://app.notion.com/p/hyojun82/3a45249e732581e189a1ebf6ad289480?source=copy_link",
@@ -2287,6 +2292,11 @@
     {
       "source": "easyDisk",
       "target": "[연구노트] 기포 제거 방법",
+      "type": "project-note"
+    },
+    {
+      "source": "easyDisk",
+      "target": "easyDisk 4-well (풀무원) 제작 공정",
       "type": "project-note"
     },
     {
