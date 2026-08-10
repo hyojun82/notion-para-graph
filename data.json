@@ -21,7 +21,7 @@
     {
       "id": "인문학",
       "type": "resource",
-      "noteCount": 11,
+      "noteCount": 12,
       "url": "https://www.notion.so/31f5249e732580829c8bdc78718f438b"
     },
     {
@@ -186,6 +186,11 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "보고란.",
+      "type": "note",
+      "url": "https://www.notion.so/3b85249e7325801e8f44e86907a5e143"
     },
     {
       "id": "dd",
@@ -1472,6 +1477,11 @@
     {
       "source": "인문학",
       "target": "횡설수설 안하고 말 잘하는 법 6가지!",
+      "type": "area-note"
+    },
+    {
+      "source": "인문학",
+      "target": "보고란.",
       "type": "area-note"
     },
     {
