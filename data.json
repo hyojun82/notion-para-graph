@@ -1,6 +1,12 @@
 {
   "nodes": [
     {
+      "id": "레시피",
+      "type": "resource",
+      "noteCount": 2,
+      "url": "https://www.notion.so/3c95249e7325802d9f47eb16d384e935"
+    },
+    {
       "id": "새로운 영역 · 자원",
       "type": "resource",
       "noteCount": 0,
@@ -9,13 +15,13 @@
     {
       "id": "블로그",
       "type": "resource",
-      "noteCount": 3,
+      "noteCount": 4,
       "url": "https://www.notion.so/3245249e732580c2a76bcb234c1a6eec"
     },
     {
       "id": "자금",
       "type": "area",
-      "noteCount": 1,
+      "noteCount": 3,
       "url": "https://www.notion.so/31f5249e73258091b68df9eeb7b0f743"
     },
     {
@@ -27,7 +33,7 @@
     {
       "id": "컴퓨터",
       "type": "resource",
-      "noteCount": 2,
+      "noteCount": 6,
       "url": "https://www.notion.so/31e5249e732580bc9816d4aea3aaf7e1"
     },
     {
@@ -128,7 +134,7 @@
       "id": "Notion",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 2,
+      "noteCount": 3,
       "url": "https://www.notion.so/3415249e73258030b856c1be974455a3"
     },
     {
@@ -186,6 +192,61 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "PC 조립",
+      "type": "note",
+      "url": "https://www.notion.so/3c95249e732580d8b0f4c0163ddad04f"
+    },
+    {
+      "id": "출근길",
+      "type": "note",
+      "url": "https://www.notion.so/3c95249e732580549168e04a206b78c2"
+    },
+    {
+      "id": "윈도우 CMD로 업데이트",
+      "type": "note",
+      "url": "https://www.notion.so/3c95249e73258015bc8dfb7ee48ab40c"
+    },
+    {
+      "id": "퇴직연금",
+      "type": "note",
+      "url": "https://www.notion.so/3c95249e7325802f8478e5f29ae4b2d2"
+    },
+    {
+      "id": "역방향 Reverse Proxy 작동하는 방법",
+      "type": "note",
+      "url": "https://www.notion.so/3c95249e7325800fbb56c77e754ef353"
+    },
+    {
+      "id": "노션 최적화",
+      "type": "note",
+      "url": "https://www.notion.so/3c95249e732580e599a0cbd18e03536a"
+    },
+    {
+      "id": "NAS 세팅",
+      "type": "note",
+      "url": "https://www.notion.so/3c95249e7325805d84a7fb5d4f678277"
+    },
+    {
+      "id": "아빠 보험",
+      "type": "note",
+      "url": "https://www.notion.so/3c95249e7325800a9e0cccf136d2e1d1"
+    },
+    {
+      "id": "digiQuark 장비 사양",
+      "type": "note",
+      "url": "https://www.notion.so/3c95249e7325803faecfca35550cc162"
+    },
+    {
+      "id": "각종 소스",
+      "type": "note",
+      "url": "https://www.notion.so/3c95249e732580469906dae1f837edda"
+    },
+    {
+      "id": "김치찌개",
+      "type": "note",
+      "url": "https://www.notion.so/3c95249e732580fbaf58de15f15aec3b"
     },
     {
       "id": "보고란.",
@@ -1405,6 +1466,16 @@
   ],
   "links": [
     {
+      "source": "레시피",
+      "target": "김치찌개",
+      "type": "area-note"
+    },
+    {
+      "source": "레시피",
+      "target": "각종 소스",
+      "type": "area-note"
+    },
+    {
       "source": "블로그",
       "target": "치매 환우 가족을 위한 완전 가이드",
       "type": "area-note"
@@ -1420,8 +1491,23 @@
       "type": "area-note"
     },
     {
+      "source": "블로그",
+      "target": "출근길",
+      "type": "area-note"
+    },
+    {
       "source": "자금",
       "target": "엄마",
+      "type": "area-note"
+    },
+    {
+      "source": "자금",
+      "target": "아빠 보험",
+      "type": "area-note"
+    },
+    {
+      "source": "자금",
+      "target": "퇴직연금",
       "type": "area-note"
     },
     {
@@ -1492,6 +1578,26 @@
     {
       "source": "컴퓨터",
       "target": "라즈베리파이@@",
+      "type": "area-note"
+    },
+    {
+      "source": "컴퓨터",
+      "target": "NAS 세팅",
+      "type": "area-note"
+    },
+    {
+      "source": "컴퓨터",
+      "target": "역방향 Reverse Proxy 작동하는 방법",
+      "type": "area-note"
+    },
+    {
+      "source": "컴퓨터",
+      "target": "윈도우 CMD로 업데이트",
+      "type": "area-note"
+    },
+    {
+      "source": "컴퓨터",
+      "target": "PC 조립",
       "type": "area-note"
     },
     {
@@ -2332,6 +2438,11 @@
     {
       "source": "Notion",
       "target": "to-do? calendar",
+      "type": "project-note"
+    },
+    {
+      "source": "Notion",
+      "target": "노션 최적화",
       "type": "project-note"
     },
     {
