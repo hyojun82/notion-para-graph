@@ -63,7 +63,7 @@
     {
       "id": "업무프로세스/SOP",
       "type": "resource",
-      "noteCount": 17,
+      "noteCount": 19,
       "url": "https://www.notion.so/1785249e73258085ae51ef17eeb05cd3"
     },
     {
@@ -309,6 +309,11 @@
       "url": "https://www.notion.so/3945249e7325817c9a0fcfe28ee0c543"
     },
     {
+      "id": "digiQuark Well 크기 편차 이슈 — 종합 리포트 (2026-07-03)",
+      "type": "note",
+      "url": "https://www.notion.so/3925249e7325819887e6fc4a68971308"
+    },
+    {
       "id": "계획",
       "type": "note",
       "url": "https://www.notion.so/3925249e732580f487f0e0979571d49f"
@@ -354,6 +359,11 @@
       "url": "https://www.notion.so/3825249e7325814386a5d9deda5d6f41"
     },
     {
+      "id": "회사 공인 소프트웨어 목록 (저작권 무료)",
+      "type": "note",
+      "url": "https://www.notion.so/37c5249e7325812b8212e2666298288d"
+    },
+    {
       "id": "Synology Nas에 Git Server와 Gitea 설치 | AI&GameDev",
       "type": "note",
       "url": "https://www.notion.so/37a5249e73258192bdececdd1afe420b"
@@ -387,6 +397,11 @@
       "id": "2026년 상반기 관리감독자 안전보건교육",
       "type": "note",
       "url": "https://www.notion.so/36a5249e7325806db210d8a0176dc92d"
+    },
+    {
+      "id": "에버노트 백업 & 이사 가이드 (원노트 / 옵시디언 / 조플린)",
+      "type": "note",
+      "url": "https://www.notion.so/3655249e732581ce94a2f089ab55099a"
     },
     {
       "id": "BGS 후방억제형 포토센서란?",
@@ -1868,6 +1883,16 @@
     {
       "source": "업무프로세스/SOP",
       "target": "주간업무 자동화",
+      "type": "area-note"
+    },
+    {
+      "source": "업무프로세스/SOP",
+      "target": "회사 공인 소프트웨어 목록 (저작권 무료)",
+      "type": "area-note"
+    },
+    {
+      "source": "업무프로세스/SOP",
+      "target": "에버노트 백업 & 이사 가이드 (원노트 / 옵시디언 / 조플린)",
       "type": "area-note"
     },
     {
