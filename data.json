@@ -120,7 +120,7 @@
       "id": "easyDisk",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 6,
+      "noteCount": 7,
       "url": "https://www.notion.so/3845249e732580458b52c18a45c756b7"
     },
     {
@@ -192,6 +192,11 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "실링 라벨 두께 검토 — 투명 PET 원단 두께별 특성",
+      "type": "note",
+      "url": "https://www.notion.so/3cf5249e7325816b8482e00f3cb8a983"
     },
     {
       "id": "PC 조립",
@@ -2438,6 +2443,11 @@
     {
       "source": "easyDisk",
       "target": "easyDisk 4-well (풀무원) 제작 공정 및 특이사항",
+      "type": "project-note"
+    },
+    {
+      "source": "easyDisk",
+      "target": "실링 라벨 두께 검토 — 투명 PET 원단 두께별 특성",
       "type": "project-note"
     },
     {
