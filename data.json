@@ -2811,6 +2811,11 @@
       "type": "project-note"
     },
     {
+      "source": "디자인",
+      "target": "easyQuark",
+      "type": "area-project"
+    },
+    {
       "source": "digiQuark",
       "target": "AL Heater PCB 연습용",
       "type": "project-note"
