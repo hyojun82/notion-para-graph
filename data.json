@@ -69,7 +69,7 @@
     {
       "id": "디자인",
       "type": "resource",
-      "noteCount": 6,
+      "noteCount": 7,
       "url": "https://www.notion.so/1785249e7325804ba344cadbd8282e82"
     },
     {
@@ -1943,6 +1943,11 @@
     {
       "source": "디자인",
       "target": "디자인 관련 사이트",
+      "type": "area-note"
+    },
+    {
+      "source": "디자인",
+      "target": "keyshot 랜더링 파일 리스트",
       "type": "area-note"
     },
     {
