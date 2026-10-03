@@ -3,7 +3,7 @@
     {
       "id": "레시피",
       "type": "resource",
-      "noteCount": 2,
+      "noteCount": 3,
       "url": "https://www.notion.so/3c95249e7325802d9f47eb16d384e935"
     },
     {
@@ -192,6 +192,11 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "주먹밥",
+      "type": "note",
+      "url": "https://www.notion.so/3ee5249e732580738919e1c2864471fe"
     },
     {
       "id": "easyQuark Welcome Letter — 디자인 노트",
@@ -1503,6 +1508,11 @@
     {
       "source": "레시피",
       "target": "각종 소스",
+      "type": "area-note"
+    },
+    {
+      "source": "레시피",
+      "target": "주먹밥",
       "type": "area-note"
     },
     {
