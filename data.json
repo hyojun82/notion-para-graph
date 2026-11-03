@@ -103,6 +103,13 @@
       "url": "https://www.notion.so/1655249e732581df81dddae1a1d55dd9"
     },
     {
+      "id": "digiQuark Auto",
+      "type": "project",
+      "status": "시작 안 함",
+      "noteCount": 1,
+      "url": "https://www.notion.so/40d5249e7325806d9b50e7ca193af89c"
+    },
+    {
       "id": "Claude",
       "type": "project",
       "status": "진행 중",
@@ -192,6 +199,11 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "회전 디스크 타이밍 벨트 구동부 설계 검토 메모",
+      "type": "note",
+      "url": "https://www.notion.so/4095249e7325818b9c4ee5e367dae3d0"
     },
     {
       "id": "주먹밥",
@@ -2389,6 +2401,11 @@
       "source": "연구노트",
       "target": "[연구노트] Disk 유로",
       "type": "area-note"
+    },
+    {
+      "source": "digiQuark Auto",
+      "target": "회전 디스크 타이밍 벨트 구동부 설계 검토 메모",
+      "type": "project-note"
     },
     {
       "source": "Claude",
