@@ -39,7 +39,7 @@
     {
       "id": "기구팀",
       "type": "area",
-      "noteCount": 6,
+      "noteCount": 7,
       "url": "https://www.notion.so/19d5249e732580789fbdfa9eabeeab7f"
     },
     {
@@ -101,6 +101,13 @@
       "type": "resource",
       "noteCount": 25,
       "url": "https://www.notion.so/1655249e732581df81dddae1a1d55dd9"
+    },
+    {
+      "id": "digiQuark Auto",
+      "type": "project",
+      "status": "진행 중",
+      "noteCount": 0,
+      "url": "https://www.notion.so/4175249e7325801287d3c32888c8f5ca"
     },
     {
       "id": "digiQuark Auto",
@@ -1693,6 +1700,11 @@
       "type": "area-note"
     },
     {
+      "source": "기구팀",
+      "target": "커팅기 세팅",
+      "type": "area-note"
+    },
+    {
       "source": "생산관리",
       "target": "히팅 블럭 NTC 온도 센서 실링(방수) 처리 검토",
       "type": "area-note"
@@ -2411,6 +2423,11 @@
       "source": "연구노트",
       "target": "[연구노트] Disk 유로",
       "type": "area-note"
+    },
+    {
+      "source": "기구설계",
+      "target": "digiQuark Auto",
+      "type": "area-project"
     },
     {
       "source": "digiQuark Auto",
