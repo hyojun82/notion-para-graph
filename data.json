@@ -106,15 +106,8 @@
       "id": "digiQuark Auto",
       "type": "project",
       "status": "진행 중",
-      "noteCount": 0,
+      "noteCount": 3,
       "url": "https://www.notion.so/4175249e7325801287d3c32888c8f5ca"
-    },
-    {
-      "id": "digiQuark Auto",
-      "type": "project",
-      "status": "시작 안 함",
-      "noteCount": 1,
-      "url": "https://www.notion.so/40d5249e7325806d9b50e7ca193af89c"
     },
     {
       "id": "Claude",
@@ -206,6 +199,21 @@
       "status": "완료",
       "noteCount": 2,
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
+    },
+    {
+      "id": "회전축 풀리·벨트 선정 — MISUMI 형번 및 모터 축 체결",
+      "type": "note",
+      "url": "https://www.notion.so/4175249e73258152a657faf908e9230f"
+    },
+    {
+      "id": "회전축 구동 방식 결정 — 벨트 vs 직결",
+      "type": "note",
+      "url": "https://www.notion.so/4175249e7325819083b9ecac548ece1e"
+    },
+    {
+      "id": "회전축 상세 설계 입력사항 — 인덕션 C코어 가열 연계",
+      "type": "note",
+      "url": "https://www.notion.so/4175249e7325819f9c29f49ca8ca044d"
     },
     {
       "id": "내 노트 검색 7가지 비교 — 왜 Web UI를 만들었나 (사내 공유)",
@@ -2425,14 +2433,24 @@
       "type": "area-note"
     },
     {
-      "source": "기구설계",
-      "target": "digiQuark Auto",
-      "type": "area-project"
+      "source": "digiQuark Auto",
+      "target": "회전축 구동 방식 결정 — 벨트 vs 직결",
+      "type": "project-note"
+    },
+    {
+      "source": "digiQuark Auto",
+      "target": "회전축 상세 설계 입력사항 — 인덕션 C코어 가열 연계",
+      "type": "project-note"
     },
     {
       "source": "digiQuark Auto",
       "target": "회전 디스크 타이밍 벨트 구동부 설계 검토 메모",
       "type": "project-note"
+    },
+    {
+      "source": "기구설계",
+      "target": "digiQuark Auto",
+      "type": "area-project"
     },
     {
       "source": "Claude",
