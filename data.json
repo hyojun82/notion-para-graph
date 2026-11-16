@@ -63,7 +63,7 @@
     {
       "id": "업무프로세스/SOP",
       "type": "resource",
-      "noteCount": 20,
+      "noteCount": 21,
       "url": "https://www.notion.so/1785249e73258085ae51ef17eeb05cd3"
     },
     {
@@ -101,6 +101,13 @@
       "type": "resource",
       "noteCount": 25,
       "url": "https://www.notion.so/1655249e732581df81dddae1a1d55dd9"
+    },
+    {
+      "id": "기출문제 오답정리",
+      "type": "project",
+      "status": "진행 중",
+      "noteCount": 5,
+      "url": "https://www.notion.so/41a5249e732580138430c8ebd5b39e95"
     },
     {
       "id": "digiQuark Auto",
@@ -201,6 +208,11 @@
       "url": "https://www.notion.so/1655249e732581de8acad28cf4cbb9e4"
     },
     {
+      "id": "(제목 없음)",
+      "type": "note",
+      "url": "https://www.notion.so/4195249e7325801fb51ee4c57270359f"
+    },
+    {
       "id": "회전축 풀리·벨트 선정 — MISUMI 형번 및 모터 축 체결",
       "type": "note",
       "url": "https://www.notion.so/4175249e73258152a657faf908e9230f"
@@ -226,14 +238,49 @@
       "url": "https://www.notion.so/40e5249e73258135adaad395d99260e5"
     },
     {
+      "id": "기초영어",
+      "type": "note",
+      "url": "https://www.notion.so/40b5249e732580db882cf7af524147be"
+    },
+    {
+      "id": "예금일반",
+      "type": "note",
+      "url": "https://www.notion.so/40b5249e732580be861cdf4757b20325"
+    },
+    {
+      "id": "보험일반",
+      "type": "note",
+      "url": "https://www.notion.so/40b5249e732580f38fcff3a7e0f7714d"
+    },
+    {
+      "id": "우편일반",
+      "type": "note",
+      "url": "https://www.notion.so/40b5249e73258023bf3fdefd8e211c54"
+    },
+    {
+      "id": "컴퓨터 일반",
+      "type": "note",
+      "url": "https://www.notion.so/40b5249e732580c09abfe7f03ac06e71"
+    },
+    {
       "id": "회전 디스크 타이밍 벨트 구동부 설계 검토 메모",
       "type": "note",
       "url": "https://www.notion.so/4095249e7325818b9c4ee5e367dae3d0"
     },
     {
+      "id": "easyQuark 영문 라벨 변경 근거 자료 (AESQ-PKP-001/002 Rev.0)",
+      "type": "note",
+      "url": "https://www.notion.so/3f25249e7325811a8426ff36e25a1611"
+    },
+    {
       "id": "주먹밥",
       "type": "note",
       "url": "https://www.notion.so/3ee5249e732580738919e1c2864471fe"
+    },
+    {
+      "id": "장비 버전 관리 체계",
+      "type": "note",
+      "url": "https://www.notion.so/3e45249e732581a1844ff47681b53fc5"
     },
     {
       "id": "easyQuark Welcome Letter — 디자인 노트",
@@ -314,6 +361,11 @@
       "id": "집 & 회사 클로드 프로젝트 비교",
       "type": "note",
       "url": "https://www.notion.so/3b85249e7325804883fafe43decf1f18"
+    },
+    {
+      "id": "digiQuark EMI/EMC 대책 종합",
+      "type": "note",
+      "url": "https://www.notion.so/3b55249e73258157b3edd13c8221452f"
     },
     {
       "id": "주간업무 자동화",
@@ -1968,6 +2020,11 @@
       "type": "area-note"
     },
     {
+      "source": "업무프로세스/SOP",
+      "target": "장비 버전 관리 체계",
+      "type": "area-note"
+    },
+    {
       "source": "디자인",
       "target": "eIFU - Electronic Instruction for Use Automation",
       "type": "area-note"
@@ -2431,6 +2488,36 @@
       "source": "연구노트",
       "target": "[연구노트] Disk 유로",
       "type": "area-note"
+    },
+    {
+      "source": "기출문제 오답정리",
+      "target": "보험일반",
+      "type": "project-note"
+    },
+    {
+      "source": "기출문제 오답정리",
+      "target": "기초영어",
+      "type": "project-note"
+    },
+    {
+      "source": "기출문제 오답정리",
+      "target": "예금일반",
+      "type": "project-note"
+    },
+    {
+      "source": "기출문제 오답정리",
+      "target": "우편일반",
+      "type": "project-note"
+    },
+    {
+      "source": "기출문제 오답정리",
+      "target": "컴퓨터 일반",
+      "type": "project-note"
+    },
+    {
+      "source": "Study",
+      "target": "기출문제 오답정리",
+      "type": "area-project"
     },
     {
       "source": "digiQuark Auto",
