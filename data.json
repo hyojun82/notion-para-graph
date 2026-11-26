@@ -63,7 +63,7 @@
     {
       "id": "업무프로세스/SOP",
       "type": "resource",
-      "noteCount": 24,
+      "noteCount": 25,
       "url": "https://www.notion.so/1785249e73258085ae51ef17eeb05cd3"
     },
     {
@@ -2062,6 +2062,11 @@
     {
       "source": "업무프로세스/SOP",
       "target": "TestData 저장 위치 공유.(2026-11-23)",
+      "type": "area-note"
+    },
+    {
+      "source": "업무프로세스/SOP",
+      "target": "시험 절차서 – 호흡기 바이러스 감염증 신속 고감도 현장진단기술 개발",
       "type": "area-note"
     },
     {
